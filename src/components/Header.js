@@ -1,7 +1,6 @@
 export const Header = () => {
   return (
     <header>
-      {/* <div class="header-section-a"> */}
       <div className="logo-name-wrapper">
         <a href="/" className="logo-name-text">
           I'm Karleen Richards.
@@ -57,7 +56,6 @@ export const Header = () => {
           />
         </a>
       </div>
-      {/* </div> */}
     </header>
   );
 };

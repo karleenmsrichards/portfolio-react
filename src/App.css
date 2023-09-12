@@ -100,6 +100,10 @@ header {
     grid-area: about;
   }
 
+  .resume-text {
+    margin-left: 10px;
+  }
+
   .about-me-text-header, .resume-text, .projects-text, .contact-text {
     text-decoration: none;
     color: var(--black);
@@ -155,10 +159,7 @@ header {
   .home-hero-image {
     height: 600px;
     display: block;
-    /* border: 2px solid #ededed;
-    box-shadow: 5px 5px 5px 2px rgba(211, 208, 208, 0.5); */
     border: 1px solid black;
-    box-shadow: 5px 5px 5px 2px #c0bebe;
   }
 
   .home-hero-btn-wrapper {
@@ -171,8 +172,6 @@ header {
     background-color: var(--off-white);
     color: black;
   }
-
-
 
   button {
     width: 150px;
@@ -210,6 +209,11 @@ header {
     padding: 100px 0;
   }
 
+  .about-me-title {
+    animation: backInLeft;
+    animation-duration: 2s;
+  }
+
   .subtitle-wrapper {
     width: 63%;
     margin-bottom: 50px;
@@ -219,7 +223,7 @@ header {
 
   .subtitle {
     position: relative;
-    bottom: 70px;
+    bottom: 80px;
     left: 0;
     font-size: 50px;  
     background-color: transparent;
@@ -270,9 +274,11 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 50px 0 70px 0;
     font-size: 33px;
-    /* border: 2px dotted red; */
+    margin: 80px 0;
+    border: 1px solid black;
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
   }
 
   .about-me-skills-content {
@@ -346,6 +352,10 @@ footer {
   align-items: center;
 }
 
+.footer-attribution-link {
+  color: black;
+}
+
 .footer-subsection {
   display: flex;
   flex-direction: column;
@@ -401,5 +411,8 @@ footer {
     align-items: center;
     justify-content: center;
   }
-}
 
+  .footer-linkedIn-img {
+    margin-right: 10px;
+  }
+}

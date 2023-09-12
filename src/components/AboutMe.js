@@ -1,3 +1,4 @@
+import "../App.css";
 import { useNavigate } from "react-router-dom";
 
 export const AboutMe = () => {
@@ -5,7 +6,7 @@ export const AboutMe = () => {
   return (
     <div className="about-me-wrapper">
       <div className="subtitle-wrapper">
-        <h2 className="subtitle animate__animated animate__backInLeft">
+        <h2 className="subtitle about-me-title">
           This is <span className="text-dark bg">me</span>
         </h2>
       </div>
