@@ -8,9 +8,10 @@ export const HomeHero = () => {
       <div className="home-hero-text-wrapper">
         <h1>
           Looking <span className="font-style-italic">for</span> a new{" "}
-          <span className="text-dark">opportunity</span> to <span>display</span>{" "}
-          <span className="font-style-italic">my</span>{" "}
-          <span className="text-dark">creativity</span> in{" "}
+          <span className="text-dark">opportunity</span> to{" "}
+          <span>display my</span>{" "}
+          <span className="font-style-italic">creativity and</span>{" "}
+          <span className="text-dark">skills</span> in{" "}
           <span className="font-style-italic">the</span>{" "}
           <span className="home-hero-text-bgColor">tech</span> industry.
         </h1>

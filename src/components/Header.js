@@ -6,7 +6,8 @@ export const Header = () => {
           I'm Karleen Richards.
         </a>
         <a href="/" className="logo-job-title">
-          A <span className="logo-span">Software Engineer.</span>
+          A <span className="logo-span">Software Engineer</span> and Social
+          Justice Activist.
         </a>
       </div>
 
@@ -33,28 +34,34 @@ export const Header = () => {
           CONTACT
         </a>
       </div>
+      <div className="mobile-header-icon-wrapper">
+        <div className="linkedIn-wrapper">
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/karleen-ms-richards"
+            className="linkedIn"
+          >
+            <img
+              className="linkedIn-icon"
+              src="https://cdn-icons-png.flaticon.com/128/3128/3128219.png"
+              alt="linkedIn"
+            />
+          </a>
+        </div>
 
-      <div className="linkedIn-wrapper">
-        <a
-          href="https://www.linkedin.com/in/karleen-ms-richards"
-          className="linkedIn"
-        >
-          <img
-            className="linkedIn-icon"
-            src="https://cdn-icons-png.flaticon.com/128/3128/3128219.png"
-            alt="linkedIn"
-          />
-        </a>
-      </div>
-
-      <div className="github-wrapper">
-        <a href="https://github.com/karleenmsrichards" className="github">
-          <img
-            className="github-icon"
-            src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png"
-            alt="Github"
-          />
-        </a>
+        <div className="github-wrapper">
+          <a
+            target="blank"
+            href="https://github.com/karleenmsrichards"
+            className="github"
+          >
+            <img
+              className="github-icon"
+              src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png"
+              alt="Github"
+            />
+          </a>
+        </div>
       </div>
     </header>
   );
