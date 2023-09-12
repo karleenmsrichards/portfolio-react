@@ -33,11 +33,15 @@
 }
 
 .page-summary-text {
-    width: 58%;
+    width: 75%;
     font-family: var(--font-family-text);
     font-weight: 300;
     line-height: 2em;
 }
+
+.resume-skills-wrapper {
+    padding: 30px 0;
+  }
 
 .highlight-bg-btn {
     background-color: var(--highlight-color);
@@ -68,12 +72,20 @@
     padding-left: 240px;
 }
 
-.about-me-skills {
-    background-color: rgb(227, 223, 223);
+.about-me-skills, .about-me-skills-black {
     margin-right: 10px;
     padding: 0 5px;
     font-family: "Poppins";
     font-weight: bold;
+}
+
+.about-me-skills {
+    background-color: rgb(227, 223, 223);
+}
+
+.about-me-skills-black {
+    background-color: black;
+    color: white;
 }
 
 .resume-subtitle {
@@ -97,8 +109,13 @@
 }
 
 .position-summary-text {
-    width: 60%;
+    width: 80%;
     font-family: var(--font-family-text);
     font-weight: 300;
     line-height: 2em;
+}
+
+.achievements-title {
+    font-family: "Poppins";
+    font-weight: bold;
 }

@@ -38,19 +38,19 @@ body {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
   padding: 30px 20px;
 }
 
 @media only screen and (min-width: 375px) {
   h1 {
-    font-size: 48px;
+    font-size: 2.8rem;
     padding: 20px 0 0 0;
   }
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 header {
@@ -71,7 +71,7 @@ header {
 .logo-name-wrapper {
   width: 100%;
   order: 2;
-  font-size: 13px;
+  font-size: .81rem;
 }
 
 .logo-name-text {
@@ -127,7 +127,7 @@ header {
 
   .logo-name-wrapper {
     grid-area: logo;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .about-me-header-wrapper {
@@ -301,7 +301,7 @@ button:hover {
   position: relative;
   top: 30px;
   left: 0;
-  font-size: 28px;  
+  font-size: 1.75rem;  
   background-color: transparent;
   font-weight: var(--font-weight-light);
 
@@ -329,7 +329,7 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin: 30px 0;
   animation: backInRight; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s;
@@ -357,7 +357,7 @@ button:hover {
 }
 
 .more-about-me-title {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: var(--font-weight-light);
 }
 
@@ -412,7 +412,7 @@ button:hover {
   .subtitle {
     top: 80px;
     left: 0;
-    font-size: 50px;  
+    font-size: 3rem;  
     background-color: transparent;
     font-weight: var(--font-weight-light);
     animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
@@ -425,7 +425,7 @@ button:hover {
 
   .about-me-text-wrapper {
     padding: 20px 0 50px 300px;
-    gap: 50px;
+    gap: 30px;
   }
 
   .about-me-paragraph-text {
@@ -436,8 +436,9 @@ button:hover {
   .about-me-skills-wrapper {
     border: 1px solid black;
     flex-direction: row;
-    font-size: 33px;
-    margin: 80px 0;
+    font-size: 2.06rem;
+    margin: 50px 0;
+    padding: 20px;
   }
 
   .about-me-skills-content {
@@ -449,12 +450,7 @@ button:hover {
     flex-direction: row;
   }
 
-  .more-about-me-text-wrapper {
-    z-index: -1;
-  }
- 
   .more-about-me-img {
-    z-index: 900;
     left: 41px;
     margin-left: 70px;
     width: 80%;
@@ -464,7 +460,7 @@ button:hover {
   }
 
   .more-about-me-title {
-    font-size: 50px;
+    font-size: 3rem;
     margin: -100px 0 40px 0;
   }
 
@@ -473,7 +469,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin-top: -50px 0 0 0;
+    /* margin-top: -50px 0 0 0; */
     background-color: var(--dark-off-white);
     padding: 30px 50px 90px 80px;
   }
@@ -489,9 +485,13 @@ button:hover {
   }
 }
 
+.resume-skills-wrapper {
+  padding: 30px 0;
+}
+
 footer {
   padding: 20px;
-  font-size: 14px;
+  font-size: .875rem;
   display: grid;
   grid-template-areas: 
   "number profiles" 
@@ -540,7 +540,7 @@ footer {
 .footer-text-title {
   font-weight: var(--font-weight-semi-bold);
   font-family: var(--font-family-headings);
-  font-size: 15px;
+  font-size: .875rem;
 }
 
 .footer-linkedIn-img {

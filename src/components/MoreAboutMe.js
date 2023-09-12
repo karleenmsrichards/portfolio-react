@@ -1,3 +1,4 @@
+import "../App.css";
 import aboutMeImage from "../images/about-me-img.jpeg";
 import { useNavigate } from "react-router-dom";
 

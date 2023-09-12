@@ -35,8 +35,8 @@ export const Resume = () => {
           <span className="text-dark">team leadership skills</span>. My
           voluntary position as Board of Director at Action for Refugees in
           Lewisham has peaked my <span className="text-dark">presentation</span>{" "}
-          and public speaking skills. I am very passionate about coding and AI
-          technology.
+          and public speaking skills. I am also very passionate about coding and
+          AI technology.
         </p>
         <button className="highlight-bg-btn">Download CV</button>
       </div>
@@ -50,15 +50,15 @@ export const Resume = () => {
         <div>
           <span className="about-me-skills">Team Player</span>
           <span className="about-me-skills">Problem Solving</span>
-          <span className="about-me-skills">Time Management</span>
+          <span className="about-me-skills-black">Time Management</span>
           <span className="about-me-skills">Community Outreach</span>
         </div>
         <div>
           <span className="about-me-skills">Public Speaking</span>
-          <span className="about-me-skills">Leadership</span>
+          <span className="about-me-skills-black">Leadership</span>
           <span className="about-me-skills">Active Learning</span>
           <span className="about-me-skills">Planning</span>
-          <span className="about-me-skills">Communication</span>
+          <span className="about-me-skills-black">Communication</span>
         </div>
       </div>
       <div className="resume-subtitle-wrapper">
@@ -69,22 +69,20 @@ export const Resume = () => {
       <ResumeSection
         time="2017 - 2019"
         subtitle="Accounting Assistant at University of the West Indies, Trinidad"
-        paragraph="  I supported the Accountant and oversaw receivables and payables.I
-      wrote comprehensive reports and managed clients accounts (bookkeeping
-      and VAT). I also allocated and record-kept all financial records (hard
-      and softcopy)."
+        paragraph="I supported the Accountant and oversaw Accounts Receivables and Payables. I also managed client accounts."
+        personalAchievementsTitle="Personal Achievements"
+        achievementsA="
+        – Successfully established a softcopy backup system of cheque records, in addition to the accounting software."
+        achievementsB="– Diligently upheld the organisation of our critical filing system for the college."
       />
       <ResumeSection
         time="2007 - 2017"
         subtitle="Library Clerk at Guardian Media Limited, Trinidad"
-        paragraph="I was responsible for archiving all newspaper articles both hard and softcopy and meeting with clients (companies, schools, individuals) to supply articles. 
-        I developed online versions of the printed Newspaper articles using the company's web application. I also conducted and coordinated appointments with clients. I supplied journalist, editors and Editor-in-Chief with required articles 
-        and maintained hardcopy files of articles."
-      />
-      <ResumeSection
-        time="2007 - 2007"
-        subtitle="Vault-Clerk at the Ministry of Legal Affairs, Trinidad"
-        paragraph="I coordinated clients' requests for national Real Property Ordinance (Deeds and Wills). I also gathered Deeds and Wills as per clients' request and maintained efficient filing of Real Property Ordinance (hardcopy)."
+        paragraph="I was responsible for archiving all newspaper articles both hard and softcopy as well as meeting with clients, companies and schools to supply articles. This allowed me to further develop my client interaction and communication skills, problem solving and research skills."
+        personalAchievementsTitle="Personal Achievements"
+        achievementsA="– Brought the archival system up to date, ensuring accessibility of historical records for future reference."
+        achievementsB="– Successful integration of email features to meet clients needs from concept to delivery."
+        achievementsC="– Received an outstanding 90% customer satisfaction review rating in 2015."
       />
       <div className="resume-subtitle-wrapper">
         <h2 className="resume-subtitle">
@@ -92,14 +90,19 @@ export const Resume = () => {
         </h2>
       </div>
       <ResumeSection
-        time="2006-2009"
-        subtitle="Omardeen School of Accounting"
+        time="June 2022 - August 2023"
+        subtitle="Code Your Future, United Kingdom"
+        paragraph="Software Development"
+      />
+      <ResumeSection
+        time="2006 - 2009"
+        subtitle="Omardeen School of Accounting, Trinidad"
         paragraph="ACCA Level 1 - Foundations in Accountancy"
         paragraph2="ACCA Level 2 - Finanancial and Management Accounting"
       />
       <ResumeSection
-        time="2001-2002"
-        subtitle="Johnson's Finishing School"
+        time="2001 - 2002"
+        subtitle="Johnson's Finishing School, Trinidad"
         paragraph="GCSE, A Levels in Mathematics B, Principles of Accounts B and English Language B"
       />
       <div className="resume-subtitle-wrapper">
@@ -109,9 +112,11 @@ export const Resume = () => {
       </div>
       <ResumeSection
         time="September 2022 - present"
-        subtitle="Board member at Action for Refugees in Lewisham (Afril)"
-        paragraph="I love giving back to my community and as a Trustee I am required to review financial statements, policies, management of funds and other business. I also speak at events to raise awareness about refugees 
-        and attend fundraising events."
+        subtitle="Board Member at Action for Refugees in Lewisham (Afril)"
+        paragraph="I love giving back to my community, especially since I was supported by a number of charities since my migration to the United Kingdom. My responsibilities are reviewing financial statements, implementing policies, managing funds and other business."
+        personalAchievementsTitle="Personal Achievements"
+        achievementsA="– Successfully assisted in raising £1000 with the Big Give Foundation in 2023."
+        achievementsB="– Hosted 2 Refugee Week Workshops at schools in the Lewisham Borough in 2023"
       />
       <ResumeSection
         time="August 2023 - present"
