@@ -7,7 +7,7 @@ export const Header = () => {
           I'm Karleen Richards.
         </a>
         <a href="/" className="logo-job-title">
-          A <span className="logo-span">Software Developer.</span>
+          A <span className="logo-span">Software Engineer.</span>
         </a>
       </div>
 

@@ -1,0 +1,47 @@
+.contact-info {
+    font-family: var(--font-family-text);
+}
+
+.contact-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form-star {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-name-input, #contact-email-input, #contact-message-input {
+    width: 45%;
+    height: 40px;
+    border: none;
+    background-color: rgb(227, 223, 223);
+}
+
+#contact-message-input {
+    height: 200px;
+}
+
+.contact-form-btn {
+    width: 45%;
+    background-color: var(--highlight-color);
+    border: none;
+    padding: 15px 0;
+}
+
+
+.animate__animated.animate__backInLeft {
+    --animate-duration: 2s;
+  }

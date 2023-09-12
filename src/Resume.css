@@ -1,0 +1,106 @@
+
+
+.page {
+    width: 100vw;
+    padding: 120px 0;
+}
+
+.cv-title-wrapper {
+    width: 63%;
+    background-color: var(--highlight-color);
+    padding: 20px 75px;
+}
+
+.cv-title {
+    font-size: 80px;
+    position: relative;
+    bottom: 80px;
+    left: 0;
+    background-color: transparent;
+    animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}
+
+.resume-summary-title {
+    width: 65%;
+    font-weight: var(--font-weight-light);
+    /* border: 2px dotted red */ 
+}
+
+.resume-subsection-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 0 100px 240px;
+}
+
+.page-summary-text {
+    width: 58%;
+    font-family: var(--font-family-text);
+    font-weight: 300;
+    line-height: 2em;
+}
+
+.highlight-bg-btn {
+    background-color: var(--highlight-color);
+    border: none;
+    width: 200px;
+    padding: 20px 0;
+}
+
+.resume-subtitle-wrapper {
+    width: 49%;
+    background-color: var(--highlight-color);
+    padding: 20px 0 20px 20px;
+    margin: 70px 0 40px 0;
+    /* border: 2px dotted red; */
+}
+
+.resume-skills-wrapper {
+    width: 100%;
+    /* border: 2px dotted red; */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 240px;
+}
+
+.about-me-skills {
+    background-color: rgb(227, 223, 223);
+    margin-right: 10px;
+    padding: 0 5px;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.resume-subtitle {
+    width: 800px;
+    font-size: 50px;
+    padding: 20px 0 20px 220px;
+    /* border: 2px dotted red; */
+  }
+
+.experience-subsection-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 240px;
+    /* border: 2px dotted red; */
+}
+
+.experience-position {
+    font-weight: bold;
+    font-family: "Poppins";
+    font-size: 22px;
+}
+
+.position-summary-text {
+    width: 60%;
+    font-family: var(--font-family-text);
+    font-weight: 300;
+    line-height: 2em;
+}

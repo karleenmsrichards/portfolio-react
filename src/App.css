@@ -6,13 +6,10 @@
 :root {
   --dark-beige: #E6DACD;
 
-  /* --highlight-color: #FFC300; */
   --highlight-color: #F0ff00;
 
   --royal-blue: #0150FD;
-  /* --off-white: #fcfcf1; */
   --off-white: #f4f4f4;
-  /* --dark-off-white: #f1f1d8; */
   --dark-off-white: #f4f4f4;
   --black: #000; 
   --font-family-headings: 'Poppins';
@@ -44,10 +41,14 @@ h1 {
   font-size: 58px;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 header {
   display: grid;
   grid-template-columns: 9fr 3fr;
-  padding: 30px 60px;
+  padding: 40px 60px;
   background-color: var(--off-white);
 }
 
@@ -57,7 +58,6 @@ header {
   font-family: var(--font-family-headings);
   font-weight: var(--font-weight-semi-bold);
   color: var(--black);
-  /* border:2px dotted red; */
 }
 
 .logo-job-title {
@@ -65,7 +65,6 @@ header {
   color: var(--black);
   font-weight: 600;
   text-decoration: none;
-  /* border:2px dotted red; */
 }
 
 .logo-span {
@@ -78,11 +77,6 @@ header {
 }
 
 @media only screen and (min-width: 375px) {
-
-  header {
-    /* border: 2px dotted red; */
-  }
-
   header {
     display: grid;
     grid-template-areas: 
@@ -91,13 +85,11 @@ header {
     column-gap: 10px;
     justify-items: center;
     align-content: center;
-    /* border: 2px dotted blue; */
   }
 
   .about-me-header-wrapper, .resume-wrapper, .projects-wrapper, .contact-wrapper, .linkedIn-wrapper, .github-wrapper {
     display: block;
     align-self: center;
-    /* border: 2px dotted red; */
   }
 
   .logo-name-text {
@@ -151,27 +143,22 @@ header {
     align-items: center;
     justify-items: center;
     padding-bottom: 140px;
-    /* border: 2px dotted blue; */
   }
 
   .home-hero-text-wrapper {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    /* border: 2px dotted red; */
-    padding: 0 0 0 160px;
-
-  }
-
-  .home-hero-image-wrapper {
-    /* border: 2px dotted blue; */
-    /* justify-self: start; */
+    padding: 0 30px 0 160px;
   }
 
   .home-hero-image {
     height: 600px;
     display: block;
-    /* border: 2px solid green; */
+    /* border: 2px solid #ededed;
+    box-shadow: 5px 5px 5px 2px rgba(211, 208, 208, 0.5); */
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 2px #c0bebe;
   }
 
   .home-hero-btn-wrapper {
@@ -210,38 +197,37 @@ header {
 
   .home-hero-text-bgColor {
     padding: 0 5px;
-    background-color: var(--highlight-color);
+    color: var(--highlight-color);
+    background-color: var(--black);
     font-family: "Poppins";
     font-weight: var(--font-weight-semi-bold);
   }
-
 }
 
 @media only screen and (min-width: 375px) {
 
   .about-me-wrapper {
-    /* border: 4px dotted green; */
     padding: 100px 0;
   }
 
-  .about-me-title {
+  .subtitle-wrapper {
+    width: 63%;
+    margin-bottom: 50px;
+    background-color: var(--highlight-color);
+    padding: 40px 75px;
+  } 
+
+  .subtitle {
     position: relative;
     bottom: 70px;
     left: 0;
     font-size: 50px;  
     background-color: transparent;
     font-weight: var(--font-weight-light);
+
+    animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
   }
-
-  .about-me-title-wrapper {
-    width: 63%;
-    margin-bottom: 50px;
-    background-color: var(--highlight-color);
-    padding: 40px 75px;
-
-    /* border: 2px dotted red; */
-
-  } 
 
   .bg {
     background-color: transparent;
@@ -254,7 +240,7 @@ header {
     gap: 50px;
   }
 
-  .about-me-text {
+  .about-me-paragraph-text {
     padding: 0 280px 0 0;
     font-family: var(--font-family-text);
     font-weight: 300;
@@ -277,8 +263,6 @@ header {
     font-style: normal;
   }
 
-
-
   .about-me-skills-wrapper {
     font-style: italic;
     text-align: center;
@@ -288,6 +272,7 @@ header {
     align-items: center;
     padding: 50px 0 70px 0;
     font-size: 33px;
+    /* border: 2px dotted red; */
   }
 
   .about-me-skills-content {
@@ -304,8 +289,13 @@ header {
   }
  
   .more-about-me-img {
+    display: block;
     width: 500px;
     grid-area: more-about-me-img;
+    padding: 20px;
+    border: 1px solid black;
+    /* box-shadow: -5px -5px 5px 2px rgba(211, 208, 208, 0.5); */
+
   }
 
   .more-about-me-title {
@@ -325,17 +315,10 @@ header {
     margin-left: -50px;
     margin-top: -50px;
     background-color: var(--dark-off-white);
-    /* height: 830px; */
     padding: 30px 50px 90px 80px;
-    /* border-bottom: 100px solid var(--highlight-color);
-    border-top: 200px solid var(--highlight-color); */
-    /* border: 2px dotted red; */
-    
-
   }
 
   .more-about-me-text-content-wrapper {
-  
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -344,12 +327,8 @@ header {
   .more-about-me-text-content {
     line-height: 2em;
     font-family: var(--font-family-text);
-    
   }
-
- 
 }
-
 
 footer {
   padding: 20px;
@@ -423,3 +402,4 @@ footer {
     justify-content: center;
   }
 }
+
