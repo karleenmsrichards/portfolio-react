@@ -24,10 +24,16 @@ form {
 }
 
 #contact-name-input, #contact-email-input, #contact-message-input {
-    width: 45%;
+    width: 100%;
     height: 40px;
     border: none;
     background-color: rgb(227, 223, 223);
+}
+
+@media only screen and (min-width: 375px) {
+    #contact-name-input, #contact-email-input, #contact-message-input {
+        width: 45%;
+    }
 }
 
 #contact-message-input {
@@ -35,10 +41,16 @@ form {
 }
 
 .contact-form-btn {
-    width: 45%;
+    width: 100%;
     background-color: var(--highlight-color);
     border: none;
     padding: 15px 0;
+}
+
+@media only screen and (min-width: 375px) {
+    .contact-form-btn {
+        width: 45%;
+    }
 }
 
 

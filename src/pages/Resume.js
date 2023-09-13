@@ -4,7 +4,7 @@ import { ResumeSection } from "../components/Resume-section";
 
 export const Resume = () => {
   return (
-    <div className="page">
+    <div className="cv-wrapper">
       <div className="cv-title-wrapper">
         <h1 className="cv-title">
           <span className="text-dark bg">CV</span>
@@ -42,20 +42,20 @@ export const Resume = () => {
       </div>
 
       <div className="resume-subtitle-wrapper">
-        <h1 className="resume-subtitle">
-          <span className="text-dark bg">Skills</span>
-        </h1>
+        <h2 className="resume-subtitle">
+          <span className="text-dark">Skills</span>
+        </h2>
       </div>
       <div className="resume-skills-wrapper">
         <div>
-          <span className="about-me-skills">Team Player</span>
-          <span className="about-me-skills">Problem Solving</span>
-          <span className="about-me-skills-black">Time Management</span>
+          <span className="about-me-skills">Time Management</span>
+          <span className="about-me-skills">Leadership</span>
+          <span className="about-me-skills-black">Team Player</span>
           <span className="about-me-skills">Community Outreach</span>
         </div>
         <div>
           <span className="about-me-skills">Public Speaking</span>
-          <span className="about-me-skills-black">Leadership</span>
+          <span className="about-me-skills-black">Problem Solving</span>
           <span className="about-me-skills">Active Learning</span>
           <span className="about-me-skills">Planning</span>
           <span className="about-me-skills-black">Communication</span>
@@ -93,6 +93,7 @@ export const Resume = () => {
         time="June 2022 - August 2023"
         subtitle="Code Your Future, United Kingdom"
         paragraph="Software Development"
+        paragraph2="Fundamentals of Software Development"
       />
       <ResumeSection
         time="2006 - 2009"
@@ -107,7 +108,7 @@ export const Resume = () => {
       />
       <div className="resume-subtitle-wrapper">
         <h2 className="resume-subtitle">
-          <span className="text-dark">Volunteer Work</span>
+          Volunteer <span className="text-dark">Work</span>
         </h2>
       </div>
       <ResumeSection
@@ -123,6 +124,14 @@ export const Resume = () => {
         subtitle="Co-Producer at the Lewisham Borough of Sanctuary Stategy Plan"
         paragraph="I am one of the team of volunteers who assist the Lewisham Borough Council fine tune it's priorities particular to migrants, asylum seekers and refugees. We focus on tailoring the Sanctuary's Strategy to ensure it bests suits the needs of the one of the most vulnerable group of community members."
       />
+      <div className="resume-subtitle-wrapper">
+        <h2 className="resume-subtitle">
+          <span className="text-dark">Hobbies</span>
+        </h2>
+      </div>
+      <p className="position-summary-text hobbies-text">
+        My hobbies include the art of balloon decoration and walking.
+      </p>
     </div>
   );
 };

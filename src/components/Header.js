@@ -19,7 +19,7 @@ export const Header = () => {
 
       <div className="resume-wrapper">
         <a href="/resume" className="resume-text">
-          RESUME
+          CV
         </a>
       </div>
 

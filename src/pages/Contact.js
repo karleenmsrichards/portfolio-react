@@ -5,7 +5,7 @@ import "animate.css";
 
 export const Contact = () => {
   return (
-    <div className="page">
+    <div className="cv-wrapper">
       <div className="cv-title-wrapper">
         <h1 className="cv-title">
           <span className="text-dark bg animate__animated animate__backInLeft">
