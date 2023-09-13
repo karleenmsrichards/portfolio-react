@@ -14,10 +14,10 @@ export const ProjectSectionC = ({
     <div className="project-wrapper">
       <div className="project-img-text-wrapper">
         <div className="project-text-wrapper">
-          <h3 className="project-title text-dark">{projectTitle}</h3>
+          <h3 className="project-title bold-text">{projectTitle}</h3>
           <p className="project-role">{projectRole}</p>
           <p className="project-text">{projectSummary}</p>
-          <p className="project-tech-stack-title text-dark">Technology used:</p>
+          <p className="project-tech-stack-title bold-text">Technology used:</p>
           <p className="project-tech-stack">{projectTechStack}</p>
           <div className="project-links-wrapper">
             <a

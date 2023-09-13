@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import heroImage from "../images/homeHeroImg.png";
+import "../HomeHero.css";
 
 export const HomeHero = () => {
   const navigate = useNavigate();
@@ -8,12 +9,12 @@ export const HomeHero = () => {
       <div className="home-hero-text-wrapper">
         <h1>
           Looking <span className="font-style-italic">for</span> a new{" "}
-          <span className="text-dark">opportunity</span> to{" "}
+          <span className="bold-text">opportunity</span> to{" "}
           <span>display my</span>{" "}
           <span className="font-style-italic">creativity and</span>{" "}
-          <span className="text-dark">skills</span> in{" "}
+          <span className="bold-text">skills</span> in{" "}
           <span className="font-style-italic">the</span>{" "}
-          <span className="home-hero-text-bgColor">tech</span> industry.
+          <span className="home-hero-green-text-bgBlack">tech</span> industry.
         </h1>
         <div className="home-hero-btn-wrapper">
           <button

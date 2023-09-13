@@ -7,34 +7,34 @@ export const Resume = () => {
     <div className="cv-wrapper">
       <div className="cv-title-wrapper">
         <h1 className="cv-title">
-          <span className="text-dark bg">CV</span>
+          <span className="bold-text">CV</span>
         </h1>
       </div>
       <div className="resume-subsection-wrapper">
         <h2 className="resume-summary-title">
-          <span className="text-dark">Professional</span> Summary
+          <span className="bold-text">Professional</span> Summary
         </h2>
         <p className="page-summary-text">
           I studied Software Development at Code Your Future and I have recently
           completed the course and my{" "}
-          <span className="text-dark">final technical group project</span>. I
+          <span className="bold-text">final technical group project</span>. I
           have been exposed to a very intense coding program and I also
           benefited from{" "}
-          <span className="text-dark">professional development</span> and{" "}
-          <span className="text-dark">community building</span> skills since
+          <span className="bold-text">professional development</span> and{" "}
+          <span className="bold-text">community building</span> skills since
           July of 2022.
         </p>
         <p className="page-summary-text">
           I enjoy the responsibility of problem solving and I have a{" "}
-          <span className="text-dark">meticulous eye</span>. My organisational
+          <span className="bold-text">meticulous eye</span>. My organisational
           and time management skills have matured through my experience as an
           Accounting Assistant. As a Trainee Software Developer, I continued to
-          be a team player, <span className="text-dark">good communicator</span>{" "}
+          be a team player, <span className="bold-text">good communicator</span>{" "}
           and I had the opportunity to work on a number of group projects which
           has led to the development of my{" "}
-          <span className="text-dark">team leadership skills</span>. My
+          <span className="bold-text">team leadership skills</span>. My
           voluntary position as Board of Director at Action for Refugees in
-          Lewisham has peaked my <span className="text-dark">presentation</span>{" "}
+          Lewisham has peaked my <span className="bold-text">presentation</span>{" "}
           and public speaking skills. I am also very passionate about coding and
           AI technology.
         </p>
@@ -43,7 +43,7 @@ export const Resume = () => {
 
       <div className="resume-subtitle-wrapper">
         <h2 className="resume-subtitle">
-          <span className="text-dark">Skills</span>
+          <span className="bold-text">Skills</span>
         </h2>
       </div>
       <div className="resume-skills-wrapper">
@@ -63,7 +63,7 @@ export const Resume = () => {
       </div>
       <div className="resume-subtitle-wrapper">
         <h2 className="resume-subtitle">
-          Work <span className="text-dark">Experience</span>
+          Work <span className="bold-text">Experience</span>
         </h2>
       </div>
       <ResumeSection
@@ -86,7 +86,7 @@ export const Resume = () => {
       />
       <div className="resume-subtitle-wrapper">
         <h2 className="resume-subtitle">
-          <span className="text-dark">Education</span>
+          <span className="bold-text">Education</span>
         </h2>
       </div>
       <ResumeSection
@@ -108,7 +108,7 @@ export const Resume = () => {
       />
       <div className="resume-subtitle-wrapper">
         <h2 className="resume-subtitle">
-          Volunteer <span className="text-dark">Work</span>
+          Volunteer <span className="bold-text">Work</span>
         </h2>
       </div>
       <ResumeSection
@@ -126,7 +126,7 @@ export const Resume = () => {
       />
       <div className="resume-subtitle-wrapper">
         <h2 className="resume-subtitle">
-          <span className="text-dark">Hobbies</span>
+          <span className="bold-text">Hobbies</span>
         </h2>
       </div>
       <p className="position-summary-text hobbies-text">

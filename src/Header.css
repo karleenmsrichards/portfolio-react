@@ -1,0 +1,121 @@
+header {
+  background-color: var(--off-white);
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.header-logo-name-wrapper {
+    width: 100%;
+    order: 2;
+    font-size: .81rem;
+}
+  
+.header-logo-name-text {
+    display: block;
+    text-decoration: none;
+    font-family: var(--font-family-headings);
+    font-weight: var(--font-weight-semi-bold);
+    color: var(--black);
+}
+
+.header-logo-job-title {
+    display: block;
+    color: var(--black);
+    font-weight: 600;
+    text-decoration: none;
+    margin: 5px 0 12px 0;
+}
+  
+.header-logo-span {
+    background-color: var(--highlight-color);
+    padding: 0 5px;
+}
+  
+.header-about-me-wrapper, .header-resume-wrapper, .header-projects-wrapper, .header-contact-wrapper {
+    display: none;
+}
+
+.mobile-header-icon-wrapper {
+    display: flex;
+    order: 1;
+    width: 20%;
+    padding: 20px 0;
+}
+  
+.header-linkedIn-icon, .header-github-icon {
+    width: 70%;
+}
+
+@media only screen and (min-width: 375px) {
+    header {
+      display: grid;
+      grid-template-areas: 
+      "logo . about resume projects contact . header-icon";
+      grid-template-columns: 4fr 3fr 1fr 1fr 1fr 1fr .2fr 1fr;
+      column-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 60px;
+    }
+  
+    .header-logo-name-text {
+      display: block;
+    }
+
+    .header-logo-name-wrapper {
+        grid-area: logo;
+        font-size: 1rem;
+    }
+    
+    .header-about-me-wrapper {
+        display: block;
+        grid-area: about;
+    }
+      
+    .header-resume-wrapper {
+        display: block;
+        grid-area: resume;
+    }
+
+    .header-projects-wrapper {
+        display: block;
+        grid-area: projects;
+    }
+      
+    .header-contact-wrapper {
+        display: block;
+        order: 5;
+        grid-area: contact;
+    }
+    
+    .header-resume-text {
+        margin-left: 10px;
+    }
+
+    .header-about-me-text, .header-resume-text, .header-projects-text, .contact-text {
+        text-decoration: none;
+        color: var(--black);
+        font-weight: 600;
+    }
+    
+    .mobile-header-icon-wrapper {
+        grid-area: header-icon;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .header-linkedIn-wrapper {
+        display: block;
+        margin-right: 30px;
+    }
+     
+    .header-linkedIn-icon {
+        width: 18px;
+    }
+    
+    .header-github-icon {
+       width: 18px;
+    }
+}

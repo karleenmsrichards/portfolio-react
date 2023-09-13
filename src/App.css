@@ -62,175 +62,16 @@ h2 {
   }
 }
 
-header {
-  background-color: var(--off-white);
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-}
-
-@media only screen and (min-width: 375px) {
-header {
-  display: grid;
-  grid-template-columns: 9fr 3fr;
-  padding: 40px 60px;
-}
-}
-
-.logo-name-wrapper {
-  width: 100%;
-  order: 2;
-  font-size: .81rem;
-}
-
-.logo-name-text {
-  display: block;
-  text-decoration: none;
-  font-family: var(--font-family-headings);
-  font-weight: var(--font-weight-semi-bold);
-  color: var(--black);
-}
-
-.logo-job-title {
-  display: block;
-  color: var(--black);
-  font-weight: 600;
-  text-decoration: none;
-  margin: 5px 0 12px 0;
-}
-
-.logo-span {
-  background-color: var(--highlight-color);
-  padding: 0 5px;
-}
-
-.mobile-header-icon-wrapper {
-  display: flex;
-  order: 1;
-  width: 20%;
-  padding: 20px 0;
-}
-
-.linkedIn-icon, .github-icon {
-  width: 70%;
-}
-
-.about-me-header-wrapper, .resume-wrapper, .projects-wrapper, .contact-wrapper {
-  display: none;
-}
-
-@media only screen and (min-width: 375px) {
-  header {
-    display: grid;
-    grid-template-areas: 
-    "logo . about resume projects contact . header-icon";
-    grid-template-columns: 4fr 3fr 1fr 1fr 1fr 1fr .2fr 1fr;
-    column-gap: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .logo-name-text {
-    display: block;
-  }
-
-  .logo-name-wrapper {
-    grid-area: logo;
-    font-size: 1rem;
-  }
-
-  .about-me-header-wrapper {
-    display: block;
-    grid-area: about;
-  }
-  
-  .resume-wrapper {
-    display: block;
-    grid-area: resume;
-  }
-
-  .projects-wrapper {
-    display: block;
-    grid-area: projects;
-  }
-  
-  .contact-wrapper {
-    display: block;
-    order: 5;
-    grid-area: contact;
-  }
-  
-  .linkedIn-wrapper {
-    display: block;
-    margin-right: 30px;
-  }
-
-  .mobile-header-icon-wrapper {
-    grid-area: header-icon;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
-  }
-
-  .resume-text {
-    margin-left: 10px;
-  }
-
-  .about-me-text-header, .resume-text, .projects-text, .contact-text {
-    text-decoration: none;
-    color: var(--black);
-    font-weight: 600;
-  }
- 
-  .linkedIn-icon {
-    width: 18px;
-  }
-
-  .github-icon {
-   width: 18px;
-  }
-}
-
-.home-hero-wrapper {
-  background-color: var(--off-white);
-  display: flex;
-  flex-direction: column;
-}
-
-.home-hero-text-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  order: 2;
-}
-
-.home-hero-image {
-  order: 1;
-  height: 300px;
-  display: block;
-  background-image: url("https://cdn.pixabay.com/photo/2015/09/29/01/39/silver-963185_1280.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
 
 
-.home-hero-btn-resume, .home-hero-btn-projects {
-  display: none;
-}
 
-.text-dark {
+
+.bold-text {
   font-family: "Poppins";
   font-weight: var(--font-weight-semi-bold);
 }
 
-.home-hero-text-bgColor {
-  padding: 0 5px;
-  color: var(--highlight-color);
-  background-color: var(--black);
-  font-family: "Poppins";
-  font-weight: var(--font-weight-semi-bold);
-}
+
 
 button {
   width: 100%;
@@ -248,41 +89,12 @@ button:hover {
   color: white;
 }
 
+
+
+ 
+
+
 @media only screen and (min-width: 375px) {
-  .home-hero-wrapper {
-    display: grid;
-    grid-template-areas: 
-    "text img";
-    grid-template-columns: 4.5fr 2.5fr;
-    align-items: center;
-    justify-items: center;
-    padding: 0 0 120px 0;
-  }
-
-  .home-hero-text-wrapper {
-    grid-area: text;
-    gap: 30px;
-    padding: 50px 20px 30px 140px;
-  }
-
-  .home-hero-image {
-    grid-area: img;
-    height: 410px;
-    /* border: 1px solid var(--black); */
-  }
-
-  .home-hero-btn-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
-
-  .home-hero-btn-resume, .home-hero-btn-projects {
-    display: block;
-    background-color: var(--off-white);
-    color: black;
-  }
-
   button {
     width: 150px;
     font-weight: var(--font-weight-semi-bold);
@@ -300,14 +112,14 @@ button:hover {
   }
 }
 
-.subtitle-wrapper {
+.about-me-subtitle-wrapper {
   width: 70%;
-  margin: 50px 0 50px 0;
+  margin: 50px 0;
   background-color: var(--highlight-color);
   padding: 12px 24px;
 }
 
-.subtitle {
+.about-me-subtitle {
   position: relative;
   top: 30px;
   left: 0;
@@ -386,15 +198,15 @@ button:hover {
   padding: 10px 0;
 }
 
-.bg-color-beige {
+.about-me-skills-grey-text {
   background-color: var(--dark-off-white);
-  color: black;
+  color: var(--black);
   font-weight: var(--font-weight-semi-bold);
   align-self: center;
   font-style: normal;
 }
 
-.bg-color-black {
+.about-me-skills-black-bg {
   background-color: var(--black);
   color: var(--highlight-color);
   font-weight: var(--font-weight-semi-bold);
@@ -407,13 +219,13 @@ button:hover {
     padding: 60px 0;
   }
 
-  .subtitle-wrapper {
+  .about-me-subtitle-wrapper {
     width: 63%;
     margin-bottom: 50px;
     padding: 40px 75px;
   } 
 
-  .subtitle {
+  .about-me-subtitle {
     top: initial;
     bottom: 70px;
     left: 0;
@@ -422,10 +234,6 @@ button:hover {
     font-weight: var(--font-weight-light);
     animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
-  }
-
-  .bg {
-    background-color: transparent;
   }
 
   .about-me-text-wrapper {
@@ -446,7 +254,7 @@ button:hover {
     padding: 20px;
   }
 
-  .about-me-skills-content {
+  .about-me-skills-text {
     line-height: 2em;
   }
 
@@ -489,84 +297,6 @@ button:hover {
   }
 }
 
-footer {
-  padding: 20px;
-  font-size: .875rem;
-  display: grid;
-  grid-template-areas: 
-  "number profiles" 
-  "email email"
-  "attribution attribution";
-  grid-template-columns: 5fr 7fr;
-  grid-template-rows: auto;
-  column-gap: 10px;
-  row-gap: 20px;
-  justify-items: center;
-  align-items: center;
-}
-
-.footer-attribution-link {
+.attribution-link {
   color: black;
-}
-
-.footer-subsection {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.footer-number-wrapper {
-  grid-area: number;
-}
-
-.footer-email-wrapper {
-  grid-area: email;
-}
-
-.footer-profiles-wrapper {
-  grid-area: profiles;
-}
-
-.footer-attribution-wrapper {
-  grid-area: attribution;
-}
-
-.profiles-imgs-wrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
-
-.footer-text-title {
-  font-weight: var(--font-weight-semi-bold);
-  font-family: var(--font-family-headings);
-  font-size: .875rem;
-}
-
-.footer-linkedIn-img {
-  width: 16px;
-  margin-right: 10px;
-}
-
-.footer-github-img {
-  width: 16px;
-}
-
-@media only screen and (min-width: 375px) {
-  footer {
-    padding-left: 50px;
-    grid-template-areas: 
-  "attribution . number email profiles";
-  grid-template-columns: 4fr 1fr 1fr 2fr 2fr;
-  column-gap: 10px;
-  }
-
-  .footer-subsection {
-    align-items: center;
-    justify-content: center;
-  }
-
-  .footer-linkedIn-img {
-    margin-right: 10px;
-  }
 }

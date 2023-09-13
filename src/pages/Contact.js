@@ -8,14 +8,14 @@ export const Contact = () => {
     <div className="cv-wrapper">
       <div className="cv-title-wrapper">
         <h1 className="cv-title">
-          <span className="text-dark bg animate__animated animate__backInLeft">
+          <span className="bold-text animate__animated animate__backInLeft">
             Contact
           </span>
         </h1>
       </div>
       <div className="resume-subsection-wrapper">
         <h2 className="resume-summary-title">
-          Get <span className="text-dark">in Touch</span>
+          Get <span className="bold-text">in Touch</span>
         </h2>
         <p className="page-summary-text">
           I am open for work and I eagerly await my next challenge in the world
@@ -24,7 +24,7 @@ export const Contact = () => {
         <div className="contact-info-wrapper">
           <p className="contact-info">
             Email:{" "}
-            <span className="text-dark">karleenmsrichards@gmail.com</span>
+            <span className="bold-text">karleenmsrichards@gmail.com</span>
           </p>
         </div>
         <form>

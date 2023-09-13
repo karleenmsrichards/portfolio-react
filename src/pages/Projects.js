@@ -20,7 +20,7 @@ export const Projects = () => {
     <div className="cv-wrapper">
       <div className="projects-title-wrapper">
         <h1 className="projects-title">
-          <span className="text-dark bg">Projects</span>
+          <span className="bold-text">Projects</span>
         </h1>
       </div>
       <ProjectSection

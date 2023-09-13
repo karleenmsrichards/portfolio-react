@@ -1,0 +1,70 @@
+.home-hero-wrapper {
+    background-color: var(--off-white);
+    display: flex;
+    flex-direction: column;
+}
+  
+.home-hero-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    order: 2;
+}
+
+.home-hero-image {
+    order: 1;
+    height: 300px;
+    display: block;
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/29/01/39/silver-963185_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+  
+  
+.home-hero-btn-resume, .home-hero-btn-projects {
+    display: none;
+}
+
+.home-hero-green-text-bgBlack {
+    padding: 0 5px;
+    color: var(--highlight-color);
+    background-color: var(--black);
+    font-family: "Poppins";
+    font-weight: var(--font-weight-semi-bold);
+}
+
+@media only screen and (min-width: 375px) {
+    .home-hero-wrapper {
+      display: grid;
+      grid-template-areas: 
+      "text img";
+      grid-template-columns: 4.5fr 2.5fr;
+      align-items: center;
+      justify-items: center;
+      padding: 0 0 120px 0;
+    }
+  
+    .home-hero-text-wrapper {
+      grid-area: text;
+      gap: 30px;
+      padding: 50px 20px 30px 140px;
+    }
+
+    .home-hero-image {
+        grid-area: img;
+        height: 410px;
+    }
+    
+    .home-hero-btn-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .home-hero-btn-resume, .home-hero-btn-projects {
+        display: block;
+        background-color: var(--off-white);
+        color: black;
+    }
+}
