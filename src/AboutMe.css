@@ -1,0 +1,106 @@
+.about-me-subtitle-wrapper {
+    width: 70%;
+    margin: 50px 0;
+    background-color: var(--highlight-color);
+    padding: 12px 24px;
+}
+
+.about-me-subtitle {
+    position: relative;
+    top: 30px;
+    left: 0;
+    font-size: 1.75rem;  
+    background-color: transparent;
+    font-weight: var(--font-weight-light);
+  
+    animation: backInLeft;
+    animation-duration: 2s; 
+}
+  
+.about-me-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 24px;
+} 
+
+.about-me-paragraph-text {
+    font-family: var(--font-family-text);
+    font-weight: 300;
+    line-height: 1.8em;
+}
+
+.about-me-skills-wrapper {
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 30px 0;
+    animation: backInRight; 
+    animation-duration: 2s;
+}
+
+.about-me-skills-grey-text {
+    background-color: var(--dark-off-white);
+    color: var(--black);
+    font-weight: var(--font-weight-semi-bold);
+    align-self: center;
+    font-style: normal;
+}
+  
+.about-me-skills-black-bg {
+    background-color: var(--black);
+    color: var(--highlight-color);
+    font-weight: var(--font-weight-semi-bold);
+    align-self: center;
+    font-style: normal;
+}
+
+@media only screen and (min-width: 375px) {
+    .about-me-wrapper {
+      padding: 60px 0;
+    }
+  
+    .about-me-subtitle-wrapper {
+      width: 63%;
+      margin-bottom: 50px;
+      padding: 40px 75px;
+    }
+
+    .about-me-subtitle {
+        top: initial;
+        bottom: 70px;
+        left: 0;
+        font-size: 3rem;  
+        background-color: transparent;
+        font-weight: var(--font-weight-light);
+        animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+    }
+    
+    .about-me-text-wrapper {
+        padding: 20px 0 50px 300px;
+        gap: 30px;
+    }
+
+    .about-me-paragraph-text {
+        padding-right: 280px;
+        line-height: 2em;
+    }
+
+    .about-me-skills-wrapper {
+        border: 1px solid black;
+        flex-direction: row;
+        font-size: 2.06rem;
+        margin: 50px 0;
+        padding: 20px;
+    }
+
+    .about-me-skills-text {
+        line-height: 2em;
+    }
+}
+  
