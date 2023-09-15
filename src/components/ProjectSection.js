@@ -14,11 +14,6 @@ export const ProjectSection = ({
   return (
     <div className="project-wrapper">
       <div className="project-img-text-wrapper">
-        <img
-          className="project-mobile-img"
-          src={projectMobileImg}
-          alt="project"
-        />
         <div className="project-text-wrapper">
           <h3 className="project-title bold-text">{projectTitle}</h3>
           <p className="project-role">{projectRole}</p>
@@ -45,7 +40,14 @@ export const ProjectSection = ({
           </div>
         </div>
       </div>
-      <img className="project-img" src={projectImage} alt="project" />
+      <div className="project-image-wrapper">
+        <img className="project-img-a" src={projectImage} alt="project" />
+        <img
+          className="project-mobile-img-b"
+          src={projectMobileImg}
+          alt="project"
+        />
+      </div>
     </div>
   );
 };

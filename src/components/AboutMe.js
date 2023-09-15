@@ -21,7 +21,7 @@ export const AboutMe = () => {
           <span className="bold-text">algorithm</span>, fun memories indeed.{" "}
         </p>
         <p className="about-me-paragraph-text">
-          I also have a knack for puzzles and to be more specific I love a
+          I also have a knack for puzzles and to be more specific, I love a
           challenge, so problem solving is my{" "}
           <span className="bold-text">thing</span>. Not the simple crossword, oh
           no, those are a tad too easy. I love{" "}
@@ -31,10 +31,10 @@ export const AboutMe = () => {
 
         <p className="about-me-paragraph-text">
           I have remained very passionate about the{" "}
-          <span className="bold-text">design</span> and look of my projects and
-          I love taking the opportunity to add a slice of my{" "}
+          <span className="bold-text">design</span> and layout of my projects
+          and I love taking the opportunity to add a slice of my{" "}
           <span className="bold-text">creativity</span> to them. This site was
-          Inspired by{" "}
+          inspired by{" "}
           <a
             className="attribution-link"
             target="blank"
@@ -42,7 +42,7 @@ export const AboutMe = () => {
           >
             Wix.com
           </a>{" "}
-          and I fell for the design but it didn't feel complete until I added a
+          , I fell for this design but it didn't feel complete until I added a
           touch of my magic. I am delighted that I have been able to maintain my
           creativity and <span className="bold-text">passion</span> for design
           throughout my journey to becoming a Software Engineer.

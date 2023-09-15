@@ -17,9 +17,9 @@ import { ProjectSectionC } from "../components/ProjectSectionC";
 
 export const Projects = () => {
   return (
-    <div className="cv-wrapper">
-      <div className="projects-title-wrapper">
-        <h1 className="projects-title">
+    <div className="page-wrapper">
+      <div className="page-title-wrapper">
+        <h1 className="page-title">
           <span className="bold-text">Projects</span>
         </h1>
       </div>

@@ -30,12 +30,6 @@ form {
     background-color: rgb(227, 223, 223);
 }
 
-@media only screen and (min-width: 375px) {
-    #contact-name-input, #contact-email-input, #contact-message-input {
-        width: 45%;
-    }
-}
-
 #contact-message-input {
     height: 200px;
 }
@@ -47,13 +41,19 @@ form {
     padding: 15px 0;
 }
 
+.animate__animated.animate__backInLeft {
+    --animate-duration: 2s;
+}
+
 @media only screen and (min-width: 375px) {
+    #contact-name-input, #contact-email-input, #contact-message-input {
+        width: 45%;
+    }
+
     .contact-form-btn {
         width: 45%;
     }
 }
 
 
-.animate__animated.animate__backInLeft {
-    --animate-duration: 2s;
-  }
+

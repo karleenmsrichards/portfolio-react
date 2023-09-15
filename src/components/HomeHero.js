@@ -14,7 +14,7 @@ export const HomeHero = () => {
           <span className="font-style-italic">creativity and</span>{" "}
           <span className="bold-text">skills</span> in{" "}
           <span className="font-style-italic">the</span>{" "}
-          <span className="home-hero-green-text-bgBlack">tech</span> industry.
+          <span className="green-text-bgBlack">tech</span> industry.
         </h1>
         <div className="home-hero-btn-wrapper">
           <button

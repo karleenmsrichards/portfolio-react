@@ -1,20 +1,19 @@
-import "../App.css";
-import "../Resume.css";
 import "../Contact.css";
+import "../CV.css";
 import "animate.css";
 
 export const Contact = () => {
   return (
-    <div className="cv-wrapper">
-      <div className="cv-title-wrapper">
-        <h1 className="cv-title">
+    <div className="page-wrapper">
+      <div className="page-title-wrapper">
+        <h1 className="page-title">
           <span className="bold-text animate__animated animate__backInLeft">
             Contact
           </span>
         </h1>
       </div>
-      <div className="resume-subsection-wrapper">
-        <h2 className="resume-summary-title">
+      <div className="page-subsection-wrapper">
+        <h2 className="page-summary-title">
           Get <span className="bold-text">in Touch</span>
         </h2>
         <p className="page-summary-text">

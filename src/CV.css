@@ -1,47 +1,15 @@
-.cv-wrapper {
-    padding: 50px 0;
-}
-
-.cv-title-wrapper {
-    width: 75%;
-    height: 50px;
-    background-color: var(--highlight-color);
-}
-
-.cv-title {
-    font-size: 2em;
-    position: relative;
-    bottom: 52px;
-    left: 0;
-    background-color: transparent;
-    animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
-}
-
-.resume-subsection-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-}
-
-.resume-summary-title {
-    width: 65%;
-    font-weight: var(--font-weight-light);
-}
-
 .page-summary-text {
     font-family: var(--font-family-text);
     font-weight: 300;
     line-height: 2em;
 }
 
-.resume-subtitle-wrapper {
+.cv-subtitle-wrapper {
     width: 68%;
     padding: 30px 0;
 }
 
-.resume-subtitle {
+.cv-subtitle {
     color: var(--black);
     border-width: 1px 1px 1px 0;
     border-style: solid;
@@ -63,33 +31,6 @@
     .cv-wrapper {
         padding: 120px 0;
     }
-    
-    .cv-title-wrapper {
-        height: 160px;
-        padding: 20px 75px;
-    } 
-
-    .cv-title {
-        font-size: 5rem;
-        position: relative;
-        bottom: 96px;
-        left: 0;
-        background-color: transparent;
-        animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-    } 
-
-    .resume-subsection-wrapper {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        padding: 60px 0 20px 240px;
-    }
-
-    .resume-summary-title {
-        width: 65%;
-        font-weight: var(--font-weight-light);
-    }
 
     .page-summary-text {
         width: 75%;
@@ -100,7 +41,7 @@
     }
 }
 
-.resume-skills-wrapper {
+.cv-skills-wrapper {
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -111,20 +52,20 @@
 }
 
 @media only screen and (min-width: 375px) {
-    .resume-subtitle-wrapper {
+    .cv-subtitle-wrapper {
         width: 70%;
         height: 160px;
         padding: 20px 0 20px 0;
         margin: 50px 0 50px 0;
     }
 
-    .resume-subtitle {
+    .cv-subtitle {
         width: 75%;
         font-size: 3.1rem;
         padding: 50px 0 50px 220px;
     }
 
-    .resume-skills-wrapper {
+    .cv-skills-wrapper {
         width: 100%;
         text-align: left;
         display: flex;
@@ -187,7 +128,6 @@
         display: unset;
         margin-right: 10px;
         padding: 0 5px;
-        font-family: "Poppins";
     }
 
     .about-me-skills {
@@ -197,7 +137,10 @@
     .about-me-skills-black {
         background-color: var(--black);
         color: white;
+    }
 
+    .about-me-skills-green-text {
+        color: var(--highlight-color);
     }
 
     .experience-subsection-wrapper {
