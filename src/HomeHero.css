@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 .home-hero-wrapper {
     background-color: var(--off-white);
     display: flex;
@@ -20,9 +22,8 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-  
-  
-.home-hero-btn-resume, .home-hero-btn-projects {
+
+.home-hero-btn-cv, .home-hero-btn-projects {
     display: none;
 }
 
@@ -54,7 +55,7 @@
         gap: 20px;
     }
 
-    .home-hero-btn-resume, .home-hero-btn-projects {
+    .home-hero-btn-cv, .home-hero-btn-projects {
         display: block;
         background-color: var(--off-white);
         color: black;

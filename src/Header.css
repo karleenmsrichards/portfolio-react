@@ -17,6 +17,7 @@ header {
     font-family: var(--font-family-headings);
     font-weight: var(--font-weight-semi-bold);
     color: var(--black);
+    margin-left: 5px;
 }
 
 .header-logo-job-title {
@@ -32,7 +33,7 @@ header {
     padding: 0 5px;
 }
   
-.header-about-me-wrapper, .header-resume-wrapper, .header-projects-wrapper, .header-contact-wrapper {
+.header-about-me-wrapper, .header-cv-wrapper, .header-projects-wrapper, .header-contact-wrapper {
     display: none;
 }
 
@@ -51,7 +52,7 @@ header {
     header {
       display: grid;
       grid-template-areas: 
-      "logo . about resume projects contact . header-icon";
+      "logo . about cv projects contact . header-icon";
       grid-template-columns: 4fr 3fr 1fr 1fr 1fr 1fr .2fr 1fr;
       column-gap: 10px;
       justify-content: center;
@@ -73,9 +74,9 @@ header {
         grid-area: about;
     }
       
-    .header-resume-wrapper {
+    .header-cv-wrapper {
         display: block;
-        grid-area: resume;
+        grid-area: cv;
     }
 
     .header-projects-wrapper {
@@ -89,11 +90,11 @@ header {
         grid-area: contact;
     }
     
-    .header-resume-text {
+    .header-cv-text {
         margin-left: 10px;
     }
 
-    .header-about-me-text, .header-resume-text, .header-projects-text, .contact-text {
+    .header-about-me-text, .header-cv-text, .header-projects-text, .contact-text {
         text-decoration: none;
         color: var(--black);
         font-weight: 600;

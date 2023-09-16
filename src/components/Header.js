@@ -5,11 +5,11 @@ export const Header = () => {
     <header>
       <div className="header-logo-name-wrapper">
         <a href="/" className="header-logo-name-text">
-          I'm Karleen Richards.
+          Hello, I'm Karleen Richards.
         </a>
         <a href="/" className="header-logo-job-title">
-          A <span className="header-logo-span">Software Engineer</span> and
-          Social Justice Activist.
+          <span className="header-logo-span">Software Engineer</span> and Social
+          Justice Activist.
         </a>
       </div>
 
@@ -19,8 +19,8 @@ export const Header = () => {
         </a>
       </div>
 
-      <div className="header-resume-wrapper">
-        <a href="/resume" className="header-resume-text">
+      <div className="header-cv-wrapper">
+        <a href="/cv" className="header-cv-text">
           CV
         </a>
       </div>

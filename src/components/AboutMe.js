@@ -49,16 +49,16 @@ export const AboutMe = () => {
         </p>
         <div className="about-me-skills-wrapper">
           <div className="about-me-skills-text">
-            <p>Team Player</p>
-            <p className="about-me-skills-grey-text">Leadership</p>
+            <p>Strategist</p>
+            <p className="about-me-skills-grey-text">Team Player</p>
           </div>
           <div className="about-me-skills-text">
             <p className="about-me-skills-black-bg">Problem Solving</p>
             <p>Meticulous</p>
           </div>
           <div className="about-me-skills-text">
-            <p>Strategist</p>
-            <p className="about-me-skills-grey-text">Professional</p>
+            <p>Professional</p>
+            <p className="about-me-skills-grey-text">Communication</p>
           </div>
         </div>
         <button onClick={() => navigate("/resume")}>See Full CV</button>

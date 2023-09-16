@@ -33,6 +33,11 @@
   font-weight: var(--font-weight-light);
 }
 
+.font-weight-light {
+  font-weight: var(--font-weight-light);
+  text-transform: uppercase;
+}
+
 body {
   background-color: white;
 }

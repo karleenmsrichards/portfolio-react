@@ -8,7 +8,7 @@ export const HomeHero = () => {
     <div className="home-hero-wrapper">
       <div className="home-hero-text-wrapper">
         <h1>
-          Looking <span className="font-style-italic">for</span> a new{" "}
+          I'm looking <span className="font-style-italic">for</span> a new{" "}
           <span className="bold-text">opportunity</span> to{" "}
           <span>display my</span>{" "}
           <span className="font-style-italic">creativity and</span>{" "}
@@ -17,11 +17,8 @@ export const HomeHero = () => {
           <span className="green-text-bgBlack">tech</span> industry.
         </h1>
         <div className="home-hero-btn-wrapper">
-          <button
-            className="home-hero-btn-resume"
-            onClick={() => navigate(`/resume`)}
-          >
-            Resume
+          <button className="home-hero-btn-cv" onClick={() => navigate(`/cv`)}>
+            CV
           </button>
           <button
             className="home-hero-btn-projects"

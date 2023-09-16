@@ -20,27 +20,27 @@ export const MoreAboutMe = () => {
             </h2>
             <div className="more-about-me-text-content-wrapper">
               <p className="more-about-me-text-content">
-                A few months after being welcomed by the Afril community, I was
-                invited to become one of the Board's{" "}
-                <span className="bold-text">Directors</span>. I was really happy
-                about this opportunity because I knew I could help make a
-                difference in the{" "}
-                <span className="bold-text">Lewisham Borough of Sanctuary</span>{" "}
-                since I am very passionate about promoting diversity, inclusion,
-                and social justice.{" "}
+                I was officially welcomed as one of the{" "}
+                <span className="bold-text">Board of Director's</span> at Action
+                for Refugees in Lewisham (Afril) in September 2022. It continues
+                to be an <span className="bold-text">honour </span>to serve
+                because I am very passionate about promoting diversity,
+                inclusion, and <span className="bold-text">social justice</span>
+                .
               </p>
-
               <p className="more-about-me-text-content">
-                I started this role in{" "}
-                <span className="bold-text">September 2022</span> and it
-                continues to be an honour to serve as a member of the Board. I
-                have been involved in a number of events and{" "}
-                <span className="bold-text">fundraising</span> initiatives. I am
-                extremely proud that I have been able to help raise £1000 for
-                the charity in 2023. I have also hosted workshops at a few
-                schools on Afril's behalf during{" "}
-                <span className="bold-text">Refugee Week 2023</span> in aid of
-                Refugee awareness.
+                I have proven to be a great asset to the charity and I have
+                profitably worked on my{" "}
+                <span className="bold-text"> communcation</span>, team player
+                and stakeholder management skills by successfully{" "}
+                <span className="bold-text">collaborating </span>
+                with members of Afril and{" "}
+                <span className="bold-text">stakeholders</span> at large. I had
+                the glory of co-hosting 4 school workshops in aid of Refugee
+                Awareness Week 2023 and for the Big Give Promotion with 2
+                faithful members of the organisation. Afril was also successful
+                in raising <span className="bold-text">£1000</span> from winning
+                the Big Give Promotion in 2023.
               </p>
             </div>
             <button onClick={() => navigate("/contact")}>Get in Touch</button>
