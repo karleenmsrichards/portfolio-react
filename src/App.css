@@ -146,16 +146,15 @@ button:hover {
 
   .page-subtitle-wrapper {
     width: 42%;
-    padding: 20px 0 20px 0;
     padding: 0;
-    margin: 50px 0 50px 0;
-}
+    margin: 50px 0;
+  }
 
-.page-subtitle {
+  .page-subtitle {
     width: 75%;
-    font-size: 3.1rem;
-    padding: 30px 0 50px 220px;
-}
+    font-size: 2.8rem;
+    padding: 30px 0 40px 220px;
+  }
 
   button {
     width: 150px;

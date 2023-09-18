@@ -13,8 +13,8 @@ export const ProjectSection = ({
 }) => {
   return (
     <div className="project-wrapper">
-      <div className="page-subtitle-wrapper">
-        <h2 className="page-subtitle">
+      <div className="project-subtitle-wrapper">
+        <h2 className="project-subtitle">
           <span className="bold-text">{projectTitle}</span>
         </h2>
         <p className="project-role">{projectRole}</p>
