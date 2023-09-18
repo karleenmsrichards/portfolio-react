@@ -41,8 +41,8 @@ export const CV = () => {
         <button className="highlight-bg-btn">Download CV</button>
       </div>
 
-      <div className="cv-subtitle-wrapper">
-        <h2 className="cv-subtitle">
+      <div className="page-subtitle-wrapper">
+        <h2 className="page-subtitle">
           <span className="bold-text">Skills</span>
         </h2>
       </div>
@@ -67,8 +67,8 @@ export const CV = () => {
           </span>
         </div>
       </div>
-      <div className="cv-subtitle-wrapper">
-        <h2 className="cv-subtitle">
+      <div className="page-subtitle-wrapper">
+        <h2 className="page-subtitle">
           Work <span className="bold-text">Experience</span>
         </h2>
       </div>
@@ -90,8 +90,8 @@ export const CV = () => {
         achievementsB="– Successful integration of email features to meet clients needs from concept to delivery."
         achievementsC="– Received an outstanding 90% customer satisfaction review rating in 2015."
       />
-      <div className="cv-subtitle-wrapper">
-        <h2 className="cv-subtitle">
+      <div className="page-subtitle-wrapper">
+        <h2 className="page-subtitle">
           <span className="bold-text">Education</span>
         </h2>
       </div>
@@ -112,8 +112,8 @@ export const CV = () => {
         subtitle="Johnson's Finishing School, Trinidad"
         paragraph="GCSE, A Levels in Mathematics B, Principles of Accounts B and English Language B"
       />
-      <div className="cv-subtitle-wrapper">
-        <h2 className="cv-subtitle">
+      <div className="page-subtitle-wrapper">
+        <h2 className="page-subtitle">
           Volunteer <span className="bold-text">Work</span>
         </h2>
       </div>
@@ -130,8 +130,8 @@ export const CV = () => {
         subtitle="Co-Producer at the Lewisham Borough of Sanctuary Stategy Plan"
         paragraph="I am one of the team of volunteers who assist the Lewisham Borough Council fine tune it's priorities particular to migrants, asylum seekers and refugees. We focus on tailoring the Sanctuary's Strategy to ensure it bests suits the needs of the one of the most vulnerable group of community members."
       />
-      <div className="cv-subtitle-wrapper">
-        <h2 className="cv-subtitle">
+      <div className="page-subtitle-wrapper">
+        <h2 className="page-subtitle">
           <span className="bold-text">Hobbies</span>
         </h2>
       </div>

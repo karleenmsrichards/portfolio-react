@@ -12,9 +12,13 @@ export const ProjectSectionC = ({
 }) => {
   return (
     <div className="project-wrapper">
+      <div className="page-subtitle-wrapper">
+        <h2 className="page-subtitle">
+          <span className="bold-text">{projectTitle}</span>
+        </h2>
+      </div>
       <div className="project-img-text-wrapper">
         <div className="project-text-wrapper">
-          <h3 className="project-title bold-text">{projectTitle}</h3>
           <p className="project-role">{projectRole}</p>
           <p className="project-text">{projectSummary}</p>
           <p className="project-tech-stack-title bold-text">Technology used:</p>

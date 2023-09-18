@@ -98,6 +98,21 @@ h2 {
   font-weight: var(--font-weight-light);
 }
 
+.page-subtitle-wrapper {
+  width: 68%;
+  padding: 30px 0;
+}
+
+.page-subtitle {
+  color: var(--black);
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-color: var(--black);
+  color: var(--black);
+  font-size: 2rem;
+  padding: 8px 20px;
+}
+
 button {
   width: 100%;
   font-weight: var(--font-weight-semi-bold);
@@ -128,6 +143,19 @@ button:hover {
     font-size: 3rem;
     line-height: 3rem;
   }
+
+  .page-subtitle-wrapper {
+    width: 70%;
+    height: 160px;
+    padding: 20px 0 20px 0;
+    margin: 50px 0 50px 0;
+}
+
+.page-subtitle {
+    width: 75%;
+    font-size: 3.1rem;
+    padding: 50px 0 50px 220px;
+}
 
   button {
     width: 150px;
