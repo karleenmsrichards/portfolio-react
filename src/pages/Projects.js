@@ -24,16 +24,6 @@ export const Projects = () => {
         </h1>
       </div>
       <ProjectSection
-        projectImage={""}
-        projectTitle={"Medic App"}
-        projectSiteLink=""
-        projectGithubLink="https://github.com/Gayle-Thompson-Igwebike/medical-app"
-        projectRole={"FULL STACK DEVELOPER"}
-        projectSummary={
-          "This is a Group Project that brings together medical professionals in various fields of medicine. It is specifically targeted at common diseases that people of african descent face. Patients login to their account before accessing an appointmenr for medical advice."
-        }
-      />
-      <ProjectSection
         projectImage={bookMeImg}
         projectMobileImg={bookMeMobileImg}
         projectTitle={"BookMe"}
@@ -108,6 +98,16 @@ export const Projects = () => {
         projectGithubLink="https://github.com/karleenmsrichards/responsive-grid-project"
         projectSummary={
           "This is a front-end website where I used the CSS grid property and media queries to change the layout of the page depending on the width of the viewport. I also used the CSS position property and rotate to complete my website."
+        }
+      />
+      <ProjectSection
+        projectImage={""}
+        projectTitle={"Medic App"}
+        projectSiteLink=""
+        projectGithubLink="https://github.com/Gayle-Thompson-Igwebike/medical-app"
+        projectRole={"FULL STACK DEVELOPER"}
+        projectSummary={
+          "This is a Group Project that brings together medical professionals in various fields of medicine. It is specifically targeted at common diseases that people of african descent face. Patients login to their account before accessing an appointmenr for medical advice."
         }
       />
       <ProjectSectionC

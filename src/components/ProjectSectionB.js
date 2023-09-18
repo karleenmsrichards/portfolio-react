@@ -11,14 +11,14 @@ export const ProjectSectionB = ({
   projectSummary,
 }) => {
   return (
-    <div className="project-wrapper">
+    <div className="project-wrapper-b">
       <div className="project-subtitle-wrapper">
         <h2 className="project-subtitle">
           <span className="bold-text">{projectTitle}</span>
         </h2>
-        <p className="project-role">{projectRole}</p>
+        <p className="project-role-b">{projectRole}</p>
       </div>
-      <div className="project-img-text-wrapper">
+      <div className="project-img-text-wrapper-c">
         <div className="project-text-wrapper">
           <p className="project-text">{projectSummary}</p>
           <p className="project-tech-stack-title bold-text">Technology used:</p>
@@ -44,7 +44,7 @@ export const ProjectSectionB = ({
         </div>
         <div className="project-image-wrapper">
           <img
-            className="project-mobile-img-b"
+            className="project-mobile-img-c"
             src={projectMobileImg}
             alt="project"
           />
