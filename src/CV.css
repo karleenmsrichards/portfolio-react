@@ -34,6 +34,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1rem;
+    padding: 40px 0;
 }
 
 @media only screen and (min-width: 375px) {
@@ -79,7 +80,7 @@
 }
 
 .hobbies-text {
-    padding: 0 20px;
+    padding: 20px;
 }
 
 .experience-position {
