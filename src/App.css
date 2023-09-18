@@ -109,10 +109,6 @@ h2 {
 
 .page-subtitle {
   color: var(--black);
-  /* border-width: 1px 1px 1px 0; */
-  /* border-style: solid;
-  border-color: var(--black);
-  color: var(--black); */
   font-size: 2rem;
   padding: 0 20px 8px 20px;
 }
@@ -149,17 +145,16 @@ button:hover {
   }
 
   .page-subtitle-wrapper {
-    width: 70%;
-    /* height: 160px; */
+    width: 42%;
     padding: 20px 0 20px 0;
+    padding: 0;
     margin: 50px 0 50px 0;
-    /* border: 2px dotted blue; */
 }
 
 .page-subtitle {
     width: 75%;
     font-size: 3.1rem;
-    padding: 50px 0 50px 220px;
+    padding: 30px 0 50px 220px;
 }
 
   button {
