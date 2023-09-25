@@ -24,14 +24,14 @@ export const Projects = () => {
         </h1>
       </div>
       <ProjectSectionA
-        projectImage={bookMeImg}
-        projectMobileImg={bookMeMobileImg}
-        projectTitle={"BookMe"}
-        projectSiteLink="https://starter-kit-all6.onrender.com"
-        projectGithubLink="https://github.com/karleenmsrichards/final-project-gp2"
-        projectRole="FULL STACK DEVELOPER"
-        projectSummary="This is my Final Technical Group Project, a website that connects experts in various areas of work to customers. Experts subscribe, then adds their google calendar to their profile in order for customers to book an appointment. Our team consisted of 4 members. The team used BDD and the Agile Framework , Continuous Integration and Sequelize ORM for database operations."
-        projectTechStack="PERN, JavaScript, Google OAuth 2.0, Sequelize, Github Actions,  Material UI, Google Calendar."
+        projectImage={medicAppImg}
+        projectTitle={"Medic App"}
+        projectSiteLink="https://bwc-medical-app.netlify.app"
+        projectGithubLink="https://github.com/Gayle-Thompson-Igwebike/medical-app"
+        projectRole={"FULL STACK DEVELOPER"}
+        projectSummary={
+          "This is a Group Project that brings together medical professionals in various fields of medicine. It is specifically targeted at common diseases that people of african descent face. Patients login to their account before accessing an appointmenr for medical advice."
+        }
       />
       <ProjectSectionB
         projectMobileImg={weatherAppImg}
@@ -42,6 +42,16 @@ export const Projects = () => {
         projectSummary={
           "Weather App is a front end website which displays the current weather and conditions. Users can also check the weather for any city in the world. A restful API was used to access the weather data."
         }
+      />
+      <ProjectSectionA
+        projectImage={bookMeImg}
+        projectMobileImg={bookMeMobileImg}
+        projectTitle={"BookMe"}
+        projectSiteLink="https://starter-kit-all6.onrender.com"
+        projectGithubLink="https://github.com/karleenmsrichards/final-project-gp2"
+        projectRole="FULL STACK DEVELOPER"
+        projectSummary="This is my Final Technical Group Project, a website that connects experts in various areas of work to customers. Experts subscribe, then adds their google calendar to their profile in order for customers to book an appointment. Our team consisted of 4 members. The team used BDD and the Agile Framework , Continuous Integration and Sequelize ORM for database operations."
+        projectTechStack="PERN, JavaScript, Google OAuth 2.0, Sequelize, Github Actions,  Material UI, Google Calendar."
       />
       <ProjectSectionA
         projectImage={leeTubeImg}
@@ -98,16 +108,6 @@ export const Projects = () => {
         projectGithubLink="https://github.com/karleenmsrichards/responsive-grid-project"
         projectSummary={
           "This is a front-end website where I used the CSS grid property and media queries to change the layout of the page depending on the width of the viewport. I also used the CSS position property and rotate to complete my website."
-        }
-      />
-      <ProjectSectionA
-        projectImage={medicAppImg}
-        projectTitle={"Medic App"}
-        projectSiteLink="https://bwc-medical-app.netlify.app"
-        projectGithubLink="https://github.com/Gayle-Thompson-Igwebike/medical-app"
-        projectRole={"FULL STACK DEVELOPER"}
-        projectSummary={
-          "This is a Group Project that brings together medical professionals in various fields of medicine. It is specifically targeted at common diseases that people of african descent face. Patients login to their account before accessing an appointmenr for medical advice."
         }
       />
       <ProjectSectionA
