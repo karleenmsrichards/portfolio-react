@@ -45,7 +45,7 @@ form {
     --animate-duration: 2s;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
     #contact-name-input, #contact-email-input, #contact-message-input {
         width: 45%;
     }

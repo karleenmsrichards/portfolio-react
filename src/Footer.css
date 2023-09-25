@@ -57,7 +57,7 @@ footer {
   width: 16px;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
   footer {
     padding-left: 50px;
     grid-template-areas: 

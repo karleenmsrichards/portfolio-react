@@ -27,7 +27,7 @@
     display: none;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
     .home-hero-wrapper {
       display: grid;
       grid-template-areas: 

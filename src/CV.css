@@ -12,7 +12,7 @@
 }
 
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
     .cv-wrapper {
         padding: 120px 0;
     }
@@ -37,7 +37,7 @@
     padding: 40px 0;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
         .cv-skills-wrapper {
         width: 100%;
         text-align: left;
@@ -96,7 +96,7 @@
     padding-top: 20px;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
     .about-me-skills, .about-me-skills-black {
         display: unset;
         margin-right: 10px;
