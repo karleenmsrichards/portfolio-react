@@ -1,7 +1,7 @@
 import "../App.css";
 import "../Projects.css";
 
-export const ProjectSectionC = ({
+export const ProjectSectionA = ({
   projectImage,
   projectTitle,
   projectTechStack,
@@ -43,7 +43,9 @@ export const ProjectSectionC = ({
           </div>
         </div>
       </div>
-      <img className="project-img" src={projectImage} alt="project" />
+      <div className="project-image-wrapper">
+        <img className="project-img-a" src={projectImage} alt="project" />
+      </div>
     </div>
   );
 };

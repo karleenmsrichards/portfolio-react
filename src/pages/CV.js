@@ -76,7 +76,7 @@ export const CV = () => {
         time="2017 - 2019"
         subtitle="Accounting Assistant at University of the West Indies, Trinidad"
         paragraph="I supported the Accountant and oversaw Accounts Receivables and Payables. I also managed client accounts."
-        personalAchievementsTitle="Personal Achievements"
+        personalAchievementsTitle="Achievements"
         achievementsA="
         – Successfully established a softcopy backup system of cheque records, in addition to the accounting software."
         achievementsB="– Diligently upheld the organisation of our critical filing system for the college."
@@ -85,7 +85,7 @@ export const CV = () => {
         time="2007 - 2017"
         subtitle="Library Clerk at Guardian Media Limited, Trinidad"
         paragraph="I was responsible for archiving all newspaper articles both hard and softcopy as well as meeting with clients, companies and schools to supply articles. This allowed me to further develop my client interaction and communication skills, problem solving and research skills."
-        personalAchievementsTitle="Personal Achievements"
+        personalAchievementsTitle="Achievements"
         achievementsA="– Brought the archival system up to date, ensuring accessibility of historical records for future reference."
         achievementsB="– Successful integration of email features to meet clients needs from concept to delivery."
         achievementsC="– Received an outstanding 90% customer satisfaction review rating in 2015."
@@ -121,8 +121,8 @@ export const CV = () => {
       <CVSection
         time="September 2022 - present"
         subtitle="Board Member at Action for Refugees in Lewisham (Afril)"
-        paragraph="I love giving back to my community, especially since I was supported by a number of charities since my migration to the United Kingdom. My responsibilities are reviewing financial statements, implementing policies, managing funds and other business."
-        personalAchievementsTitle="Personal Achievements"
+        paragraph="I love giving back to my community and I am very passionate about social justice. My responsibilities as Trustee is to review financial statements, implement policies, manage funds and take care of other business."
+        personalAchievementsTitle="Achievements"
         achievementsA="– Successfully assisted in raising £1000 with the Big Give Foundation in 2023."
         achievementsB="– Hosted 2 Refugee Week Workshops at schools in the Lewisham Borough of and Southwark in 2023."
       />
@@ -130,6 +130,9 @@ export const CV = () => {
         time="August 2023 - present"
         subtitle="Co-Producer at the Lewisham Borough of Sanctuary Stategy Plan"
         paragraph="I am one of the team of volunteers responsible for solving the current problems migrants face within the Lewisham Borough. We focus on tailoring the Sanctuary's Strategy to ensure it suits the needs of one of the most vulnerable groups of community members."
+        personalAchievementsTitle="Achievements"
+        achievementsA="– Develop conflict resolution strategy with the use of empathy and negociation."
+        achievementsB="– Actively honing my communication skills to ensure effective collaboration and teamwork."
       />
       <div className="page-subtitle-wrapper">
         <h2 className="page-subtitle">

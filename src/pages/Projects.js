@@ -1,6 +1,7 @@
 import "../App.css";
 import "../Projects.css";
 import bookMeImg from "../images/BookMe-img.png";
+import medicAppImg from "../images/bwc-medic-app-img.png";
 import bookMeMobileImg from "../images/BookMe-mobile-img.png";
 import weatherAppImg from "../images/Weather-app-img.png";
 import leeTubeImg from "../images/LeeTube-img.png";
@@ -11,9 +12,8 @@ import chatImg from "../images/Chat-with-me-img.png";
 import hotelImg from "../images/cyf-hotel-img.png";
 import quotesImg from "../images/quotes-img.png";
 import juiceBarMobileImg from "../images/JuiceBar-mobile-img.png";
-import { ProjectSection } from "../components/ProjectSection";
+import { ProjectSectionA } from "../components/ProjectSectionA";
 import { ProjectSectionB } from "../components/ProjectSectionB";
-import { ProjectSectionC } from "../components/ProjectSectionC";
 
 export const Projects = () => {
   return (
@@ -23,7 +23,7 @@ export const Projects = () => {
           <span className="bold-text">Projects</span>
         </h1>
       </div>
-      <ProjectSection
+      <ProjectSectionA
         projectImage={bookMeImg}
         projectMobileImg={bookMeMobileImg}
         projectTitle={"BookMe"}
@@ -43,7 +43,7 @@ export const Projects = () => {
           "Weather App is a front end website which displays the current weather and conditions. Users can also check the weather for any city in the world. A restful API was used to access the weather data."
         }
       />
-      <ProjectSection
+      <ProjectSectionA
         projectImage={leeTubeImg}
         projectMobileImg={leeTubeMobileImg}
         projectTitle={"Lee Tube"}
@@ -55,7 +55,7 @@ export const Projects = () => {
         }
         projectTechStack="PERN (Postgres, Express, React, Node), JavaScript, Custom CSS"
       />
-      <ProjectSectionC
+      <ProjectSectionA
         projectImage={webTvImg}
         projectTitle={"WebTv"}
         projectSiteLink="https://cyf-karleenmsrichards-tv.netlify.app/"
@@ -65,7 +65,7 @@ export const Projects = () => {
           "This is a website developed using Vanilla Javascript. My creativity and passion for the tech industry is visible in this TV Show Project. Calls to TvMaze's restful API is are made so that shows and movies are displayed. A few other stretch goal features were also accomplished. Please watch!"
         }
       />
-      <ProjectSectionC
+      <ProjectSectionA
         projectImage={empoweredImg}
         projectTitle={"Empowered"}
         projectSiteLink="https://empowered.netlify.app"
@@ -75,14 +75,14 @@ export const Projects = () => {
           "This website is a group effort that helps users lower the cost of their utility bills. In the process of developing this website, I communicated and collaborated well with all team members and came up with various ways to deal with difference of opinions. For instance, I listened to my teammates and weighed the pros and cons before making final decisions."
         }
       />
-      <ProjectSectionC
+      <ProjectSectionA
         projectImage={hotelImg}
         projectTitle={"CYF Hotel"}
         projectGithubLink="https://github.com/karleenmsrichards/cyf-hotel-react"
         projectRole={"FULL STACK DEVELOPER"}
         projectSummary={""}
       />
-      <ProjectSectionC
+      <ProjectSectionA
         projectImage={quotesImg}
         projectTitle={"tailoredQuote.com"}
         projectSiteLink="https://karleenmsrichards-quotes-site-ne4r-qf3fdamp4-karleenmsrichards.vercel.app/"
@@ -100,17 +100,17 @@ export const Projects = () => {
           "This is a front-end website where I used the CSS grid property and media queries to change the layout of the page depending on the width of the viewport. I also used the CSS position property and rotate to complete my website."
         }
       />
-      <ProjectSection
-        projectImage={""}
+      <ProjectSectionA
+        projectImage={medicAppImg}
         projectTitle={"Medic App"}
-        projectSiteLink=""
+        projectSiteLink="https://bwc-medical-app.netlify.app"
         projectGithubLink="https://github.com/Gayle-Thompson-Igwebike/medical-app"
         projectRole={"FULL STACK DEVELOPER"}
         projectSummary={
           "This is a Group Project that brings together medical professionals in various fields of medicine. It is specifically targeted at common diseases that people of african descent face. Patients login to their account before accessing an appointmenr for medical advice."
         }
       />
-      <ProjectSectionC
+      <ProjectSectionA
         projectImage={chatImg}
         projectTitle={"Chat-with-me"}
         projectSiteLink="https://chat-with-me-client.onrender.com"
