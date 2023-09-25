@@ -6,6 +6,7 @@ export const CVSection = ({
   subtitle,
   paragraph,
   paragraph2,
+  paragraph3,
   achievementsA,
   achievementsB,
   achievementsC,
@@ -15,8 +16,9 @@ export const CVSection = ({
     <div className="experience-subsection-wrapper">
       <p className="position-summary-text">{time}</p>
       <p className="experience-position">{subtitle}</p>
-      <p className="position-summary-text">{paragraph}</p>
       <p className="position-summary-text">{paragraph2}</p>
+      <p className="position-summary-text">{paragraph}</p>
+      <p className="position-summary-text">{paragraph3}</p>
       <p className="position-summary-text achievements-title">
         {personalAchievementsTitle}
       </p>

@@ -99,7 +99,8 @@ export const CV = () => {
         time="June 2022 - August 2023"
         subtitle="Code Your Future, United Kingdom"
         paragraph="Software Development"
-        paragraph2="Fundamentals of Software Development"
+        paragraph2="Product Management"
+        paragraph3="Fundamentals of Software Development"
       />
       <CVSection
         time="2006 - 2009"
