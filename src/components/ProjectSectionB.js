@@ -44,7 +44,7 @@ export const ProjectSectionB = ({
         </div>
         <div className="project-image-wrapper">
           <img
-            className="project-mobile-img-c"
+            className="project-mobile-img-mobile"
             src={projectMobileImg}
             alt="project"
           />

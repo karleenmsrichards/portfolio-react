@@ -44,7 +44,7 @@ export const ProjectSectionA = ({
         </div>
       </div>
       <div className="project-image-wrapper">
-        <img className="project-img-a" src={projectImage} alt="project" />
+        <img className="project-img-desktop" src={projectImage} alt="project" />
       </div>
     </div>
   );

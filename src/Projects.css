@@ -1,4 +1,4 @@
-.project-img-a, .project-mobile-img-a, .project-mobile-img-b,  .project-mobile-img-c {
+.project-img-desktop,  .project-mobile-img-mobile {
     box-shadow: 5px 5px 5px 2px #d2cdcd80;
 }
 
@@ -6,10 +6,6 @@
     font-size: 1.5rem;
 }
 
-.project-img-a {
-    display: none;
-}
-  
 .project-wrapper, .project-wrapper-b {
     font-family: var(--font-family-text);
     font-weight: 300;
@@ -90,11 +86,7 @@
         padding: 10px 0;
     }
 
-    .project-mobile-img-b {
-        display: none;
-    }
-
-    .project-img-a {
+    .project-img-desktop {
         display: block;
     }
 
