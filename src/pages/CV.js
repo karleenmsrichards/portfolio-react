@@ -129,7 +129,7 @@ export const CV = () => {
       <CVSection
         time="August 2023 - present"
         subtitle="Co-Producer at the Lewisham Borough of Sanctuary Stategy Plan"
-        paragraph="I am one of the team of volunteers who assist the Lewisham Borough Council fine tune it's priorities particular to migrants, asylum seekers and refugees. We focus on tailoring the Sanctuary's Strategy to ensure it bests suits the needs of the one of the most vulnerable group of community members."
+        paragraph="I am one of the team of volunteers responsible for solving the current problems migrants face within the Lewisham Borough. We focus on tailoring the Sanctuary's Strategy to ensure it suits the needs of one of the most vulnerable groups of community members."
       />
       <div className="page-subtitle-wrapper">
         <h2 className="page-subtitle">
