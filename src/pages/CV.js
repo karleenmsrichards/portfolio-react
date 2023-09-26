@@ -3,6 +3,8 @@ import "../CV.css";
 import { CVSection } from "../components/CVSection";
 
 export const CV = () => {
+  const googleDocsFileId = process.env.REACT_APP_GOOGLE_DOCS_FILE_ID;
+  const googleDocsExportUrl = `https://docs.google.com/document/d/${googleDocsFileId}/export?format=pdf`;
   return (
     <div className="page-wrapper">
       <div className="page-title-wrapper">
@@ -38,7 +40,9 @@ export const CV = () => {
           and public speaking skills. I am also very passionate about coding and
           AI technology.
         </p>
-        <button className="highlight-bg-btn">Download CV</button>
+        <a className="download-cv-ahref" href={googleDocsExportUrl} download>
+          Download CV
+        </a>
       </div>
 
       <div className="page-subtitle-wrapper">

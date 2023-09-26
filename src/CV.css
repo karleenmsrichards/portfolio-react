@@ -4,11 +4,30 @@
     line-height: 2em;
 }
 
+a {
+    text-decoration: none;
+}
+
 .highlight-bg-btn {
     background-color: var(--highlight-color);
     border: none;
     width: 100%;
     padding: 20px 0;
+}
+
+.download-cv-ahref {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    background-color: var(--highlight-color);
+    padding: 15px 20px;
+    color: black;
+    text-align: center;
+}
+
+.download-cv-ahref:hover {
+    color: white;
+    background-color: var(--black);
 }
 
 
@@ -23,6 +42,10 @@
 
     .highlight-bg-btn {
         width: 200px;
+    }
+
+    .download-cv-ahref {
+        width: 20%;
     }
 }
 
