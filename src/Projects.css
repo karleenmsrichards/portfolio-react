@@ -8,6 +8,7 @@
 
 .project-wrapper, .project-wrapper-b {
     font-family: var(--font-family-text);
+    background-color: var(--dark-off-white);
     font-weight: 300;
     line-height: 2em;
     display: flex;
