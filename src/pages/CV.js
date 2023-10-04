@@ -105,11 +105,11 @@ export const CV = () => {
       <CVSection
         time="2017 - 2019"
         subtitle="Accounting Assistant at University of the West Indies, Trinidad"
-        paragraph="I supported the Accountant and oversaw Accounts Receivables and Payables. I also managed client accounts."
+        paragraph="I communicated well with the Accountant and Accounts Department. I also managed clients Accounts Payables accounts strengthening my leadership and communication skills."
         personalAchievementsTitle="Achievements"
         achievementsA="
-        – Successfully established a softcopy backup system of cheque records, in addition to the accounting software."
-        achievementsB="– Diligently upheld the organisation of our critical filing system for the college."
+        – Problem solving Planning: Successfully established and managed a complimentary softcopy backup system of cheque records, in addition to the existing backup ensuring data availability during the software downtime."
+        achievementsB="– Attention to Detail: Upheld the meticulous organisation of the critical filing system to prevent data loss and confusion."
       />
       <CVSection
         time="2007 - 2017"
