@@ -129,6 +129,12 @@ export const CV = () => {
         time="June 2022 - August 2023"
         subtitle="Code Your Future, United Kingdom"
         paragraph="Software Development"
+        achievementsA="Software Development Modules:
+        Intro to Coding, Fundamentals, Git and Github, HTML, CSS, Javascript Core 1,2,3, React, Node/Express, SQL
+        "
+        achievementsB="Product Management Modules:
+        Introduction Module, The importance of the customer, Core Behavioral Skills (The Big 6), Core Technical Skills, Supporting Tools and techniques
+        "
         paragraph2="Product Management"
         paragraph3="Fundamentals of Software Development"
       />
@@ -159,10 +165,10 @@ export const CV = () => {
       <CVSection
         time="August 2023 - present"
         subtitle="Co-Producer at the Lewisham Borough of Sanctuary Stategy Plan"
-        paragraph="I am one of the team of volunteers responsible for solving the current problems migrants face within the Lewisham Borough. We focus on tailoring the Sanctuary's Strategy to ensure it suits the needs of one of the most vulnerable groups of community members."
+        paragraph="I am delighted to have seized the opportunity and be a part of this diverse team of Producers, as I continue to fulfil my responsibilities in this community outreach role."
         personalAchievementsTitle="Achievements"
-        achievementsA="– Develop conflict resolution strategy with the use of empathy and negociation."
-        achievementsB="– Actively honing my communication skills to ensure effective collaboration and teamwork."
+        achievementsA="– Conflict Resolution: Fine tuned effective conflict resolution strategies with empathy and negotiation, fostering teamwork in a diverse environment."
+        achievementsB="– Problem Solving: Brainstorm to find solutions for the current issues faced by vulnerable migrants within the Lewisham Borough."
       />
       <div className="page-subtitle-wrapper">
         <h2 className="page-subtitle">
