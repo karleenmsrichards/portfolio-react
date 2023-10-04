@@ -104,6 +104,11 @@ a {
     font-family: var(--font-family-text);
 }
 
+.tech-stack-text {
+    font-family: var(--font-family-text);
+    font-size: .9em;
+}
+
 .experience-subsection-wrapper {
     display: flex;
     flex-direction: column;
