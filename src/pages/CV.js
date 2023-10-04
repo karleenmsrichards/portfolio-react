@@ -114,11 +114,11 @@ export const CV = () => {
       <CVSection
         time="2007 - 2017"
         subtitle="Library Clerk at Guardian Media Limited, Trinidad"
-        paragraph="I was responsible for archiving all newspaper articles both hard and softcopy as well as meeting with clients, companies and schools to supply articles. This allowed me to further develop my client interaction and communication skills, problem solving and research skills."
+        paragraph="I organised and efficiently archived all newspaper articles both hard and softcopy as well as meeting with clients, companies and schools to supply articles. This allowed me to further develop my client interaction and communication skills, problem solving and research skills."
         personalAchievementsTitle="Achievements"
-        achievementsA="– Brought the archival system up to date, ensuring accessibility of historical records for future reference."
-        achievementsB="– Successful integration of email features to meet clients needs from concept to delivery."
-        achievementsC="– Received an outstanding 90% customer satisfaction review rating in 2015."
+        achievementsA="– Organising: Brought the archival system up to date, ensuring accessibility and preservation of valuable historical records and articles for future reference."
+        achievementsB="– Active Learning: Piloted the integration of new email features which met clients needs during my time at GML."
+        achievementsC="– Communication: Received an outstanding 90% customer satisfaction review rating in 2015."
       />
       <div className="page-subtitle-wrapper">
         <h2 className="page-subtitle">
