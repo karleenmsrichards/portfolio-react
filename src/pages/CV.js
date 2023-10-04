@@ -17,28 +17,15 @@ export const CV = () => {
           <span className="bold-text">Professional</span> Summary
         </h2>
         <p className="page-summary-text">
-          I studied Software Development at Code Your Future and I have recently
-          completed the course and my{" "}
-          <span className="bold-text">final technical group project</span>. I
-          have been exposed to a very intense coding program and I also
-          benefited from{" "}
-          <span className="bold-text">professional development</span> and{" "}
-          <span className="bold-text">community building</span> skills since
-          July of 2022.
-        </p>
-        <p className="page-summary-text">
-          I enjoy the responsibility of problem solving and I have a{" "}
-          <span className="bold-text">meticulous eye</span>. My organisational
-          and time management skills have matured through my experience as an
-          Accounting Assistant. As a Trainee Software Developer, I continued to
-          be a team player, <span className="bold-text">good communicator</span>{" "}
-          and I had the opportunity to work on a number of group projects which
-          has led to the development of my{" "}
-          <span className="bold-text">team leadership skills</span>. My
-          voluntary position as Board of Director at Action for Refugees in
-          Lewisham has peaked my <span className="bold-text">presentation</span>{" "}
-          and public speaking skills. I am also very passionate about coding and
-          AI technology.
+          I am a recent <span className="bold-text">Software Development</span>{" "}
+          Graduate. I studied at Code Your Future, where I acquired a strong
+          foundation in <span className="bold-text">coding skills</span>. I
+          enjoy the responsibility of{" "}
+          <span className="bold-text">problem solving</span> and I have a{" "}
+          <span className="bold-text">meticulous eye</span>. I am a good
+          communicator with a{" "}
+          <span className="bold-text">collaborative spirit</span>, as evidenced
+          by my 4 successful team projects.
         </p>
         <a className="download-cv-ahref" href={googleDocsExportUrl} download>
           Download CV
