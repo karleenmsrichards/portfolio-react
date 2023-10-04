@@ -151,10 +151,10 @@ export const CV = () => {
       <CVSection
         time="September 2022 - present"
         subtitle="Board Member at Action for Refugees in Lewisham (Afril)"
-        paragraph="I love giving back to my community and I am very passionate about social justice. My responsibilities as Trustee is to review financial statements, implement policies, manage funds and take care of other business."
+        paragraph="I love giving back to my community and community outreach. My responsibilities as Trustee are reviewing financial statements, implementing policies, managing funds and other business."
         personalAchievementsTitle="Achievements"
-        achievementsA="– Successfully assisted in raising £1000 with the Big Give Foundation in 2023."
-        achievementsB="– Hosted 2 Refugee Week Workshops at schools in the Lewisham Borough of and Southwark in 2023."
+        achievementsA="– Public Speaking and Presentation: Delivered a Presentation that resulted in successfully raising £1000 with the Big Give Foundation in 2023."
+        achievementsB="– Stakeholder Management: Collaborated and co-hosted Refugee Awareness Workshops at the Prendergast School and Dulwich College during Refugee Week 2023."
       />
       <CVSection
         time="August 2023 - present"
