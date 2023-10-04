@@ -34,10 +34,10 @@ export const CV = () => {
 
       <div className="page-subtitle-wrapper">
         <h2 className="page-subtitle">
-          <span className="bold-text">Soft Skills</span>
+          Soft <span className="bold-text">Skills</span>
         </h2>
       </div>
-      <div className="cv-skills-wrapper">
+      <div className="soft-skills-wrapper">
         <div>
           <span className="about-me-skills">Time Management</span>
           <span className="about-me-skills">Leadership</span>
@@ -59,6 +59,44 @@ export const CV = () => {
           </span>
         </div>
       </div>
+
+      <div className="page-subtitle-wrapper">
+        <h2 className="page-subtitle">
+          Tech <span className="bold-text">Stack</span>
+        </h2>
+      </div>
+      <div className="tech-stack-wrapper">
+        <div>
+          <p className="tech-stack-heading">Client-side:</p>
+          <div className="tech-stack-text-wrapper">
+            <span className="tech-stack-text">HTML5, </span>
+            <span className="tech-stack-text">CSS3, </span>
+            <span className="tech-stack-text">Javascript, </span>
+            <span className="tech-stack-text">React</span>
+          </div>
+        </div>
+        <div>
+          <p className="tech-stack-heading">Server-side:</p>
+          <div className="tech-stack-text-wrapper">
+            <span className="tech-stack-text">REST API, </span>
+            <span className="tech-stack-text">Node.js, </span>
+            <span className="tech-stack-text">Express, </span>
+            <span className="tech-stack-text">Database SQL, </span>
+            <span className="tech-stack-text">Sequelize, </span>
+            <span className="tech-stack-text">Prisma, </span>
+            <span className="tech-stack-text">Cloud Services</span>
+          </div>
+        </div>
+        <div>
+          <p className="tech-stack-heading">Tools:</p>
+          <div className="tech-stack-text-wrapper">
+            <span className="tech-stack-text">Github, </span>
+            <span className="tech-stack-text">Github Actions, </span>
+            <span className="tech-stack-text">Figma</span>
+          </div>
+        </div>
+      </div>
+
       <div className="page-subtitle-wrapper">
         <h2 className="page-subtitle">
           Work <span className="bold-text">Experience</span>

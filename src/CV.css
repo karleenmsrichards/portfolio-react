@@ -90,6 +90,20 @@ a {
     color: black;
 }
 
+.soft-skills-wrapper, .tech-stack-wrapper {
+    text-align: center;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.tech-stack-heading {
+    font-weight: bold;
+    font-family: var(--font-family-text);
+}
+
 .experience-subsection-wrapper {
     display: flex;
     flex-direction: column;
@@ -137,6 +151,21 @@ a {
 
     .about-me-skills-green-text {
         color: var(--highlight-color);
+    }
+
+    .soft-skills-wrapper {
+        font-size: 1.3em;
+        text-align: left;
+        padding-left: 220px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .tech-stack-wrapper {
+        font-size: 1.3em;
+        text-align: left;
+        margin-left: 220px;
+        width: 70%;
     }
 
     .experience-subsection-wrapper {
