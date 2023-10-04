@@ -45,6 +45,7 @@ export const CV = () => {
             Team Player
           </span>
           <span className="about-me-skills">Community Outreach</span>
+          <span className="about-me-skills">Stakeholder Management</span>
         </div>
         <div>
           <span className="about-me-skills">Public Speaking</span>
