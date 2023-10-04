@@ -34,7 +34,7 @@ export const CV = () => {
 
       <div className="page-subtitle-wrapper">
         <h2 className="page-subtitle">
-          <span className="bold-text">Skills</span>
+          <span className="bold-text">Soft Skills</span>
         </h2>
       </div>
       <div className="cv-skills-wrapper">
