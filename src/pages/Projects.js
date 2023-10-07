@@ -52,7 +52,7 @@ export const Projects = () => {
         projectSiteLink="https://starter-kit-all6.onrender.com"
         projectGithubLink="https://github.com/karleenmsrichards/final-project-gp2"
         projectRole="FULL STACK DEVELOPER"
-        projectSummary="This is my Final Technical Group Project, a website that connects experts in various areas of work to customers. Experts subscribe, then adds their google calendar to their profile in order for customers to book an appointment. Our team consisted of 4 members. The team used BDD and the Agile Framework , Continuous Integration and Sequelize ORM for database operations."
+        projectSummary="This is my Final Technical Group Project, a website that connects experts in various areas of work to customers. Experts subscribe, then adds their google calendar to their profile in order for customers to book an appointment. Our team consisted of 4 members. The team used BDD and the Agile Framework, Continuous Integration and Sequelize ORM for database operations."
         projectTechStack="PERN, JavaScript, Google OAuth 2.0, Sequelize, Github Actions,  Material UI, Google Calendar."
       />
       <ProjectSectionA
