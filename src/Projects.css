@@ -35,10 +35,17 @@
 .project-links-wrapper {
     display: flex;
     width: 70%;
+    gap: 20px;
 }
 
 .project-link {
     display: inline-block;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.project-link:hover {
+    color: red;
 }
 
 .project-img-text-wrapper, .project-img-text-wrapper-c {
