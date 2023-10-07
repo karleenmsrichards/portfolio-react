@@ -21,7 +21,7 @@ export const ProjectSectionA = ({
       <div className="project-img-text-wrapper">
         <div className="project-text-wrapper">
           <p className="project-text">{projectSummary}</p>
-          <p className="project-tech-stack-title bold-text">Technology used:</p>
+          <p className="project-tech-stack-title bold-text">Technology:</p>
           <p className="project-tech-stack">{projectTechStack}</p>
           <div className="project-links-wrapper">
             <a
