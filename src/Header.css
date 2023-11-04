@@ -35,7 +35,7 @@ header {
     padding: 0 5px;
 }
   
-.header-about-me-wrapper, .header-cv-wrapper, .header-projects-wrapper, .header-contact-wrapper {
+.header-home-wrapper, .header-cv-wrapper, .header-projects-wrapper, .header-contact-wrapper {
     display: none;
 }
 
@@ -71,8 +71,8 @@ header {
     header {
       display: grid;
       grid-template-areas: 
-      "logo . about projects cv contact";
-      grid-template-columns: 4fr 3fr 1fr 1fr 1fr 1fr;
+      "logo . home about projects cv contact";
+      grid-template-columns: 4fr 3fr 1fr 1fr 1fr 1fr 1fr;
       column-gap: 10px;
       justify-content: center;
       align-items: center;
@@ -88,8 +88,13 @@ header {
         grid-area: logo;
         font-size: 1rem;
     }
+
+    .header-home-wrapper {
+        display: block;
+        grid-area: home;
+    }
     
-    .header-about-me-wrapper {
+    .header-about-wrapper {
         display: block;
         grid-area: about;
     }
@@ -110,7 +115,7 @@ header {
         grid-area: contact;
     }
 
-    .header-about-me-text, .header-cv-text, .header-projects-text, .contact-text {
+    .header-home-text, .header-about-text, .header-cv-text, .header-projects-text, .contact-text {
         text-decoration: none;
         color: var(--black);
         font-weight: 600;

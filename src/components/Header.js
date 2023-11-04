@@ -22,9 +22,15 @@ export const Header = () => {
         </a>
       </div>
 
-      <div className="header-about-me-wrapper">
-        <a href="/" className="header-about-me-text">
+      <div className="header-home-wrapper">
+        <a href="/" className="header-home-text">
           HOME
+        </a>
+      </div>
+
+      <div className="header-about-wrapper">
+        <a href="/about" className="header-about-text">
+          ABOUT
         </a>
       </div>
 
