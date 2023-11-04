@@ -24,13 +24,13 @@ export const Header = () => {
 
       <div className="header-about-me-wrapper">
         <a href="/" className="header-about-me-text">
-          ABOUT ME
+          HOME
         </a>
       </div>
 
       <div className="header-cv-wrapper">
         <a href="/cv" className="header-cv-text">
-          CV
+          RESUME
         </a>
       </div>
 
@@ -45,7 +45,8 @@ export const Header = () => {
           CONTACT
         </a>
       </div>
-      <div className="mobile-header-top-wrapper">
+
+      {/* <div className="mobile-header-top-wrapper">
         <div className="header-mobile-icon-wrapper">
           <div className="header-linkedIn-wrapper">
             <a
@@ -109,7 +110,7 @@ export const Header = () => {
             />
           </a>
         </div>
-      </div>
+      </div> */}
       {showMenu && <NavBar showMenu={showMenu} handleClose={handleClose} />}
     </header>
   );

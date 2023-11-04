@@ -13,14 +13,18 @@
     order: 2;
 }
 
-.home-hero-image {
-    order: 1;
-    height: 300px;
-    display: block;
+.home-hero-image-wrapper {
     background-image: url("https://cdn.pixabay.com/photo/2015/09/29/01/39/silver-963185_1280.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.home-hero-image {
+    order: 1;
+    width: auto;
+    height: auto;
+    display: block;
 }
 
 .home-hero-btn-cv, .home-hero-btn-projects {

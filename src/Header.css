@@ -71,12 +71,12 @@ header {
     header {
       display: grid;
       grid-template-areas: 
-      "logo . about cv projects contact . header-icon";
-      grid-template-columns: 4fr 3fr 1fr 1fr 1fr 1fr .2fr 1fr;
+      "logo . about projects cv contact";
+      grid-template-columns: 4fr 3fr 1fr 1fr 1fr 1fr;
       column-gap: 10px;
       justify-content: center;
       align-items: center;
-      padding: 40px 60px;
+      padding: 40px 0 40px 30px;
     }
   
     .header-logo-name-text {
@@ -109,10 +109,6 @@ header {
         order: 5;
         grid-area: contact;
     }
-    
-    .header-cv-text {
-        margin-left: 31px;
-    }
 
     .header-about-me-text, .header-cv-text, .header-projects-text, .contact-text {
         text-decoration: none;
@@ -130,7 +126,7 @@ header {
         grid-area: header-icon;
         justify-content: center;
         align-items: center;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     .mobile-header-top-wrapper {

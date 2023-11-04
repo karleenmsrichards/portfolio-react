@@ -16,7 +16,7 @@ export const HomeHero = () => {
           <span className="font-style-italic">the</span>{" "}
           <span className="green-text-bgBlack">tech</span> industry.
         </h1>
-        <div className="home-hero-btn-wrapper">
+        {/* <div className="home-hero-btn-wrapper">
           <button className="home-hero-btn-cv" onClick={() => navigate(`/cv`)}>
             CV
           </button>
@@ -26,7 +26,7 @@ export const HomeHero = () => {
           >
             Projects
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="home-hero-image-wrapper">
         <img
