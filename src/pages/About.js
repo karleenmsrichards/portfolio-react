@@ -61,7 +61,6 @@ export const About = () => {
             <p className="about-me-skills-grey-text">Communication</p>
           </div>
         </div>
-        <button onClick={() => navigate("/resume")}>See Full CV</button>
       </div>
     </div>
   );
