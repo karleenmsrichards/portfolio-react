@@ -17,8 +17,7 @@ export const Header = () => {
           Hello, I'm Karleen Richards.
         </a>
         <a href="/" className="header-logo-job-title">
-          <span className="header-logo-span">Software Engineer</span> and Social
-          Justice Activist.
+          <span className="header-logo-span">Software Engineer</span>
         </a>
       </div>
 
