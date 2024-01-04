@@ -1,67 +1,200 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Climate+Crisis&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Poppins:wght@600&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Climate+Crisis&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Poppins:wght@600&family=Quicksand:wght@300&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Climate+Crisis&family=Fraunces:opsz,wght@9..144,700&family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Poppins:wght@600&family=Quicksand:wght@300&family=Rock+Salt&display=swap');
 
-.home-hero-wrapper {
-    background-color: var(--off-white);
+.home-hero-main-wrapper, .home-hero-softskills-wrapper, .home-hero-techstack-wrapper {
+    font-family: var(--font-family-text);
     display: flex;
     flex-direction: column;
+    background-color: white;
+    box-shadow: -12px 20px 43px -36px #00000073,
+    25px 0px 20px -20px #00000073,
+    0px 79px 20px -96px #00000073,
+    -25px 0px 20px -20px #00000073;
 }
-  
-.home-hero-text-wrapper {
+
+.home-hero-main-wrapper {
+    grid-area: main;
+}
+
+.home-hero-softskills-wrapper {
+    grid-area: softskills;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.home-hero-techstack-wrapper {
+    grid-area: techstack;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.home-hero-sub-heading {
+    font-size: 2rem;
+    background-color: grey;
+    color: var(--highlight-color);
+    padding: 15px 0;
+}
+
+.home-hero-image-name-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: grey;
+    text-align: left;
+}
+
+.home-hero-name-title {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    order: 2;
+    font-size: .5rem;
+}
+
+.home-hero-name-title-role {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.home-hero-title-name {
+    font-family: "Rock salt", cursive;
+    font-size: 1rem;
+    color: var(--highlight-color);
 }
 
 .home-hero-image-wrapper {
-    background-image: url("https://cdn.pixabay.com/photo/2015/09/29/01/39/silver-963185_1280.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0 ;
 }
 
 .home-hero-image {
-    order: 1;
-    width: auto;
-    height: auto;
+    width: 60%;
     display: block;
+    background-color: var(--dark-off-white);
+    border-radius: 50%;
 }
 
-.home-hero-btn-cv, .home-hero-btn-projects {
-    display: none;
+.home-hero-text-wrapper {
+    padding: 10px 25px 20px 25px;
 }
 
 @media only screen and (min-width: 500px) {
-    .home-hero-wrapper {
-      display: grid;
-      grid-template-areas: 
-      "text img";
-      grid-template-columns: 4.5fr 2.5fr;
-      align-items: center;
-      justify-items: center;
-      padding: 0 0 120px 0;
-    }
-  
-    .home-hero-text-wrapper {
-      grid-area: text;
-      gap: 30px;
-      padding: 50px 20px 30px 140px;
+    .home-hero-section {
+        display: grid;
+        grid-template-areas: 
+        "techstack main softskills";
+        grid-template-columns: 3fr 6fr 3fr;
+        align-content: center;
+        justify-content: center;
+        column-gap: 40px;
+        padding: 80px;
+        margin-top: 50px;
     }
 
-    .home-hero-image {
-        grid-area: img;
-        height: 410px;
+    .home-hero-main-wrapper:hover {
+        animation: wiggle 0.6s ease 1; 
+      }
+      
+      @keyframes wiggle {
+        0% {
+          transform: rotate(0);
+        }
+        25% {
+          transform: rotate(5deg);
+        }
+        50% {
+          transform: rotate(-5deg);
+        }
+        75% {
+          transform: rotate(5deg);
+        }
+        100% {
+          transform: rotate(0);
+        }
+      }
+
+   .home-hero-techstack-wrapper {
+        transition: transform 0.6s; 
+        padding-bottom: 20px;
+    }
+
+   .home-hero-techstack-wrapper:hover {
+        transform: scale(1.1) rotate(45deg);
+    }
+
+    .home-hero-softskills-wrapper {
+        transition: transform 0.6s; 
+        padding-bottom: 20px;
+    }
+
+    .home-hero-softskills-wrapper:hover {
+        transform: scale(1.1) rotate(-45deg);
+    }
+
+    .home-hero-main-wrapper {
+        margin-top: -40px;
+        transition: transform 0.6s; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; 
+        gap: 20px;
+        padding: 0 0 30px 0;
+    }
+
+    .home-hero-softskills-wrapper {
+        justify-content: flex-start;
+        text-align: center;
+        gap: 20px;
     }
     
-    .home-hero-btn-wrapper {
-        display: flex;
-        flex-direction: row;
+    .home-hero-techstack-wrapper {
+        justify-content: flex-start;
+        text-align: center;
         gap: 20px;
     }
 
-    .home-hero-btn-cv, .home-hero-btn-projects {
-        display: block;
-        background-color: var(--off-white);
-        color: black;
+    .home-hero-image-name-wrapper {
+        align-items: flex-start;
+        gap: 0px;
+        padding: 0 30px;
+    }
+
+    .home-hero-image-wrapper {
+        width: 20%;
+        justify-content: flex-start;
+        padding: 10px 0;
+    }
+
+    .home-hero-name-title {
+        color: var(--white);
+        margin-top: 20px;
+        padding: 0 0 20px 20px;
+    }
+
+    .home-hero-name-title-role {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .home-hero-title-name {
+        font-family: "Rock salt", cursive;
+        font-size: 1.5rem;
+        color: var(--highlight-color);
+    }
+
+    .home-hero-text-wrapper {
+        width: 95%
+    }
+
+    .home-hero-image {
+        width: 100px;
     }
 }

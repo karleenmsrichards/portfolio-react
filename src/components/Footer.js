@@ -3,33 +3,28 @@ import "../Footer.css";
 export const Footer = () => {
   return (
     <footer>
-      <div class="footer-number-wrapper footer-subsection">
-        <p class="footer-text-title">Call</p>
-        <p>+447706529992</p>
-      </div>
-
-      <div class="footer-email-wrapper footer-subsection">
-        <p class="footer-text-title">Write</p>
+      <div className="footer-email-wrapper footer-subsection">
+        <p className="footer-text-title">Write</p>
         <p>karleenmsrichards@gmail.com</p>
       </div>
 
-      <div class="footer-profiles-wrapper footer-subsection">
-        <p class="footer-text-title">Follow</p>
-        <div class="footer-profiles-iconss-wrapper">
+      <div className="footer-profiles-wrapper footer-subsection">
+        <p className="footer-text-title">Follow</p>
+        <div className="footer-profiles-iconss-wrapper">
           <p>
             <a
               target="blank"
               href="https://www.linkedin.com/in/karleen-ms-richards"
             >
               <img
-                class="footer-linkedIn-icon"
+                className="footer-linkedIn-icon"
                 src="https://cdn-icons-png.flaticon.com/128/3128/3128219.png"
                 alt="linkedIn"
               />
             </a>
             <a target="blank" href="https://github.com/karleenmsrichards">
               <img
-                class="footer-github-icon"
+                className="footer-github-icon"
                 src="https://cdn-icons-png.flaticon.com/128/1240/1240971.png"
                 alt="Github"
               />
@@ -37,7 +32,7 @@ export const Footer = () => {
           </p>
         </div>
       </div>
-      <div class="footer-attribution-wrapper">
+      <div className="footer-attribution-wrapper">
         <p>© 2023 by Karleen M S Richards</p>
         <p>
           Inspired by{" "}

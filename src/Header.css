@@ -71,8 +71,8 @@ header {
     header {
       display: grid;
       grid-template-areas: 
-      "logo . home about projects cv contact";
-      grid-template-columns: 4fr 3fr 1fr 1fr 1fr 1fr 1fr;
+      "logo . home projects cv contact";
+      grid-template-columns: 4fr 3fr 1fr 1fr 1fr 1fr;
       column-gap: 10px;
       justify-content: center;
       align-items: center;
@@ -93,11 +93,6 @@ header {
         display: block;
         grid-area: home;
     }
-    
-    .header-about-wrapper {
-        display: block;
-        grid-area: about;
-    }
       
     .header-cv-wrapper {
         display: block;
@@ -107,6 +102,7 @@ header {
     .header-projects-wrapper {
         display: block;
         grid-area: projects;
+        margin-right: 50px;
     }
       
     .header-contact-wrapper {

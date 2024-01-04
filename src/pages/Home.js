@@ -1,26 +1,15 @@
-import { HomeHero } from "../components/HomeHero";
-import { AboutMe } from "../components/AboutMe";
-import { MoreAboutMe } from "../components/MoreAboutMe";
+import "../App.css";
+import "../HomeHero.css";
+import { HomeHeroMain } from "../components/HomeHeroMain";
+import { HomeHeroTechStack } from "../components/HomeHeroTechStack";
+import { HomeHeroSoftSkills } from "../components/HomeHeroSoftSkills";
 
 export const Home = () => {
   return (
-    <div>
-      <HomeHero />
-      <div className="about-me-skills-wrapper">
-          <div className="about-me-skills-text">
-            <p>Strategist</p>
-            <p className="about-me-skills-grey-text">Team Player</p>
-          </div>
-          <div className="about-me-skills-text">
-            <p className="about-me-skills-black-bg">Problem Solving</p>
-            <p>Meticulous</p>
-          </div>
-          <div className="about-me-skills-text">
-            <p>Professional</p>
-            <p className="about-me-skills-grey-text">Communication</p>
-          </div>
-        </div>
-      <MoreAboutMe />
+    <div className="home-hero-section">
+      <HomeHeroMain />
+      <HomeHeroTechStack />
+      <HomeHeroSoftSkills />
     </div>
   );
 };

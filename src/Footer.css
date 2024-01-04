@@ -1,9 +1,10 @@
 footer {
+  background-color: var(--dark-off-white);
   padding: 20px;
   font-size: .875rem;
   display: grid;
   grid-template-areas: 
-  "number profiles" 
+  "profiles profiles" 
   "email email"
   "attribution attribution";
   grid-template-columns: 5fr 7fr;
@@ -18,10 +19,6 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 8px;
-}
-
-.footer-number-wrapper {
-  grid-area: number;
 }
 
 .footer-email-wrapper {
@@ -61,7 +58,7 @@ footer {
   footer {
     padding-left: 50px;
     grid-template-areas: 
-  "attribution . number email profiles";
+  "attribution . . email profiles";
   grid-template-columns: 4fr 1fr 1fr 2fr 2fr;
   column-gap: 10px;
   }

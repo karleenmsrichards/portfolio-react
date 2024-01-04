@@ -1,5 +1,5 @@
 import "../Contact.css";
-import "../CV.css";
+import "../Resume.css";
 import "animate.css";
 
 export const Contact = () => {

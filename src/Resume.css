@@ -15,7 +15,7 @@ a {
     padding: 20px 0;
 }
 
-.download-cv-ahref {
+.download-resume-ahref {
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
@@ -25,31 +25,32 @@ a {
     text-align: center;
 }
 
-.download-cv-ahref:hover {
+.download-resume-ahref:hover {
     color: white;
-    background-color: var(--black);
+    background-color: var(--dark-pink);
+    font-weight: bold;
 }
 
 
 @media only screen and (min-width: 500px) {
-    .cv-wrapper {
+    .resume-wrapper {
         padding: 120px 0;
     }
 
     .page-summary-text {
-        width: 75%;
+        width: 90%;
     }
 
     .highlight-bg-btn {
         width: 200px;
     }
 
-    .download-cv-ahref {
+    .download-resume-ahref {
         width: 20%;
     }
 }
 
-.cv-skills-wrapper {
+.resume-skills-wrapper {
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -61,7 +62,7 @@ a {
 }
 
 @media only screen and (min-width: 500px) {
-        .cv-skills-wrapper {
+        .resume-skills-wrapper {
         width: 100%;
         text-align: left;
         display: flex;
@@ -82,7 +83,7 @@ a {
 }
 
 .about-me-skills {
-    font-style: italic;
+    font-family: var(--font-family-text);
 }
 
 .about-me-skills-black {
@@ -91,12 +92,17 @@ a {
 }
 
 .soft-skills-wrapper, .tech-stack-wrapper {
+    width: 90%;
+    background-color: var(--white);
     text-align: center;
-    padding: 15px 20px;
+    padding:50px 20px;
     display: flex;
     flex-direction: column;
+    margin: 50px auto;
+}
+
+.tech-stack-wrapper {
     gap: 30px;
-    margin: 50px 0;
 }
 
 .tech-stack-heading {
@@ -110,8 +116,11 @@ a {
 }
 
 .experience-subsection-wrapper {
+    width: 90%;
+    background-color: var(--white);
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -122,6 +131,9 @@ a {
 }
 
 .hobbies-text {
+    width: 90%;
+    background-color: var(--white);
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -146,7 +158,7 @@ a {
     }
 
     .about-me-skills {
-        background-color: #e3dfdf;
+         /* background-color: #e3dfd; */
     }
 
     .about-me-skills-black {
@@ -154,31 +166,34 @@ a {
         color: white;
     }
 
-    .about-me-skills-green-text {
-        color: var(--highlight-color);
+    .about-me-skills-white-text {
+        color: var(--white);
     }
 
     .soft-skills-wrapper {
-        font-size: 1.3em;
+        width: 70%;
+        gap: 20px;
+        font-size: 1.2em;
         text-align: left;
-        padding-left: 220px;
-        margin: 0;
-        width: 100%;
+        padding-left: 80px;
+        margin: 0 auto;
     }
 
     .tech-stack-wrapper {
-        font-size: 1.3em;
+        font-size: 1.2em;
         text-align: left;
         margin-left: 220px;
         width: 70%;
+        padding-left: 80px;
     }
 
     .experience-subsection-wrapper {
-        padding: 20px 0 20px 220px;
+        width: 70%;
+        padding: 30px 0 30px 80px;
     }
 
     .position-summary-text {
-        width: 80%;
+        width: 90%;
     }
 
     .experience-position {
@@ -186,7 +201,8 @@ a {
     }
 
     .hobbies-text {
-        padding: 0 20px 0 220px;
+        width: 70%;
+        padding: 40px 0 40px 80px;
     }
     
 }

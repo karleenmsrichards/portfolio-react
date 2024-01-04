@@ -14,10 +14,7 @@ export const Header = () => {
     <header>
       <div className="header-logo-name-wrapper">
         <a href="/" className="header-logo-name-text">
-          Hello, I'm Karleen Richards.
-        </a>
-        <a href="/" className="header-logo-job-title">
-          <span className="header-logo-span">Software Engineer</span>
+        Karleen Richards
         </a>
       </div>
 
@@ -26,22 +23,15 @@ export const Header = () => {
           HOME
         </a>
       </div>
-
-      <div className="header-about-wrapper">
-        <a href="/about" className="header-about-text">
-          ABOUT
-        </a>
-      </div>
-
       <div className="header-cv-wrapper">
-        <a href="/cv" className="header-cv-text">
+        <a href="/resume" className="header-cv-text">
           RESUME
         </a>
       </div>
 
       <div className="header-projects-wrapper">
-        <a href="/projects" className="header-projects-text">
-          PROJECTS
+        <a href="/portfolio" className="header-projects-text">
+          PORTFOLIO
         </a>
       </div>
 

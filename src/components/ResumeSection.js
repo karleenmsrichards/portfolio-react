@@ -1,7 +1,7 @@
 import "../App.css";
-import "../CV.css";
+import "../Resume.css";
 
-export const CVSection = ({
+export const ResumeSection = ({
   time,
   subtitle,
   paragraph,

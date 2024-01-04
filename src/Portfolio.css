@@ -1,12 +1,13 @@
-.project-img-desktop,  .project-mobile-img-mobile {
+.portfolio-img-desktop,  .portfolio-mobile-img-mobile {
     box-shadow: 5px 5px 5px 2px #d2cdcd80;
 }
 
-.project-subtitle {
+.portfolio-subtitle {
     font-size: 1.5rem;
 }
 
-.project-wrapper, .project-wrapper-b {
+.portfolio-wrapper, .portfolio-wrapper-b {
+    width: 90%;
     font-family: var(--font-family-text);
     background-color: var(--dark-off-white);
     font-weight: 300;
@@ -15,16 +16,16 @@
     flex-direction: column;
     gap: 20px;
     padding: 40px 20px;
-    margin: 40px 0;
+    margin: 40px auto;
 }
 
-.project-role, .project-tech-stack,
-.project-text {
+.portfolio-role, .portfolio-tech-stack,
+.portfolio-text {
   font-family: var(--font-family-text); 
   font-weight: 300;
 }
 
-.project-role, .project-role-b {
+.portfolio-role, .portfolio-role-b {
     font-family: var(--font-family-text); 
     font-weight: 300;
     border-style: solid;
@@ -32,71 +33,71 @@
     border-color: var(--black);
 }
 
-.project-links-wrapper {
+.portfolio-links-wrapper {
     display: flex;
     width: 70%;
     gap: 20px;
 }
 
-.project-link {
+.portfolio-link {
     display: inline-block;
     font-weight: 600;
     text-decoration: underline;
 }
 
-.project-link:hover {
+.portfolio-link:hover {
     color: red;
 }
 
-.project-img-text-wrapper, .project-img-text-wrapper-c {
+.portfolio-img-text-wrapper, .portfolio-img-text-wrapper-c {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.project-text-wrapper {
+.portfolio-text-wrapper {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.project-tech-stack-title {
+.portfolio-tech-stack-title {
     margin-top: 20px;
 }
 
-.project-mobile-img {
+.portfolio-mobile-img {
     width: 326px;
 }
 
 @media only screen and (min-width: 500px) {
-    .project-wrapper {
+    .portfolio-wrapper {
         gap: 30px;
         width: 70%;
         padding: 80px 100px;
         margin: 80px auto;
     }
 
-    .project-wrapper-b {
-        width: 85%;
+    .portfolio-wrapper-b {
+        width: 70%;
         gap: 30px;
-        padding: 80px 100px 80px 280px;
+        padding: 80px 100px 80px 100px;
     }
 
-    .project-subtitle-wrapper {
+    .portfolio-subtitle-wrapper {
         padding: 20px 0;
         padding: 0;
     }
     
-    .project-subtitle {
+    .portfolio-subtitle {
         font-size: 2.3rem;
         padding: 0 0 10px 0;
     }
 
-    .project-img-desktop {
+    .portfolio-img-desktop {
         display: block;
     }
 
-    .project-img-text-wrapper-c {
+    .portfolio-img-text-wrapper-c {
         flex-direction: row;
         gap: 30px;
     } 

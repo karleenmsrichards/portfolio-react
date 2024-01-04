@@ -1,8 +1,7 @@
 import "../AboutMe.css";
-import { useNavigate } from "react-router-dom";
+import { MoreAboutMe } from "../components/MoreAboutMe";
 
 export const About = () => {
-  const navigate = useNavigate();
   return (
     <div className="about-me-wrapper">
       <div className="about-me-subtitle-wrapper">
@@ -48,6 +47,7 @@ export const About = () => {
           throughout my journey to becoming a Software Engineer.
         </p>
       </div>
+      <MoreAboutMe />
     </div>
   );
 };
