@@ -87,15 +87,20 @@
 
 @media only screen and (min-width: 500px) {
     .home-hero-section {
-        display: grid;
+       background-color: white;
+       width: 85%;
+       height: 80vh;
+       margin: 70px auto;
+        /*  display: grid;
         grid-template-areas: 
         "techstack main softskills";
-        grid-template-columns: 3fr 6fr 3fr;
+        grid-template-columns: 1fr 4fr 1fr;
         align-content: center;
         justify-content: center;
         column-gap: 40px;
         padding: 80px;
         margin-top: 50px;
+        margin: 50px 50px 0 50px; */
     }
 
     .home-hero-main-wrapper:hover {
