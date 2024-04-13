@@ -24,26 +24,24 @@
 @media only screen and (min-width: 768px) {
     .skill-cards-container {
         grid-template-columns: repeat(3, 1fr);
-        padding: 100px 220px; 
+        padding: 60px 220px; 
     }
 }
 
 .skill-card {
-    width: 200px;
+    width: 250px;
     padding: 20px;
     background-color: var(--white); 
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: transform 0.3s ease;
-    transition: transform 0.5s;
-    transform-style: preserve-3d;
 }
 
 @media only screen and (min-width: 768px) {
     .skill-card {
         width: 300px;
         transition: transform 0.3s ease;
+        transform-style: preserve-3d;
         transform-style: preserve-3d;
     }
 }
@@ -59,11 +57,12 @@
 .skills-title {
     text-align: center;
     font-size: 1.9rem;
-    padding-bottom: 20px;
+    padding: 40px 0 30px 0;
     color: var(--dark-grey);
 }
 
 .skill-name {
+    color: var(--primary-orange);
     font-size: 1.2rem;
     margin-bottom: 5px;
 }
