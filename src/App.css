@@ -2,206 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Climate+Crisis&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Poppins:wght@600&family=Quicksand:wght@300&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Climate+Crisis&family=Fraunces:opsz,wght@9..144,700&family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Poppins:wght@600&family=Quicksand:wght@300&family=Rock+Salt&display=swap');
 
-
-:root {
-  --dark-beige: #E6DACD;
-
-  --highlight-color: #F0ff00;
-  --highlight-color-light: #eaf72c;
-
-  --royal-blue: #0150FD;
-  --white: #ffffff;
-  --off-white: #f4f4f4;
-  /* --off-white: #d9dade; */
-  --dark-off-white: #f4f4f4;
-  --dark-off-white: #e3e3e6;
-  --dark-pink: #c60887;
-  --black: #000; 
-  --font-family-headings: 'Poppins';
-  
-  --font-weight-semi-bold: 600;
-  --font-family-body: 'Quicksand';
-  --font-family-text: 'Gelasio';
-  --font-weight-light: 300;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  line-height: 1.5rem;
+  font-family: 'Poppins';
   width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
-.font-style-italic {
-  font-style: italic;
-  font-weight: var(--font-weight-light);
-}
 
-.font-weight-light {
-  font-weight: var(--font-weight-light);
-  text-transform: uppercase;
-}
-
-h1 {
-  z-index: 1;
-  font-size: 2rem;
-  padding: 30px 20px;
-}
-
-h2 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  width: 100%;
-}
-
-.bold-text {
-  font-family: "Poppins";
-  font-weight: var(--font-weight-semi-bold);
-}
-
-.green-text-bgBlack {
-  padding: 0 5px;
-  color: var(--highlight-color);
-  background-color: var(--black);
-  font-family: "Poppins";
-  font-weight: var(--font-weight-semi-bold);
-}
-
-.page-wrapper {
-  padding: 50px 0;
-}
-
-.page-title-wrapper {
-  width: 60%;
-  height: 50px;
-  background-color: var(--highlight-color-light);
-}
-
-.page-title {
-  font-size: 2em;
-  position: relative;
-  bottom: 52px;
-  left: 0;
-  background-color: transparent;
-  animation: backInLeft; 
-  animation-duration: 2s;
-}
-
-.page-subsection-wrapper {
-  width: 90%;
+.app {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  margin: 30px auto;
-  padding: 20px;
-  background-color: rgb(228, 225, 225);
 }
 
-.page-summary-title {
-  width: 65%;
-  font-weight: var(--font-weight-light);
-}
-
-.page-subtitle-wrapper {
-  width: 58%;
-  padding: 10px 0;
-  margin: 20px 0;
-  border-style: solid;
-  border-width: 1px 1px 1px 0;
-  border-color: var(--black);
-  color: var(--black);
-}
-
-.page-subtitle {
-  color: var(--black);
-  font-size: 2rem;
-  padding: 0 20px 8px 20px;
-}
-
-button {
-  font-weight: var(--font-weight-semi-bold);
-  font-style: italic;
-  border: none;
-  border: 1px solid var(--black);
-  color: var(--black);
-  background-color: transparent;
-  padding: 15px;
-}
-
-.attribution-link {
-  color: black;
-}
-
-@media only screen and (min-width: 500px) {
-  h1 {
-    font-size: 2.8rem;
-    padding: 20px 0 0 0;
-  }
-
-  h2 {
-    width: 100%;
-    font-size: 3rem;
-    line-height: 3rem;
-  }
-
-  .page-subtitle-wrapper {
-    width: 42%;
-    padding: 0;
-    margin: 50px 0;
-  }
-
-  .page-subtitle {
-    font-size: 2.8rem;
-    padding: 30px 0 30px 220px;
-  }
-
-  button {
-    width: 150px;
-    font-weight: var(--font-weight-semi-bold);
-    font-style: italic;
-    border: none;
-    border: 1px solid var(--black);
-    color: var(--black);
-    background-color: transparent;
-    padding: 10px;
-  }
-
-  button:hover {
-    background-color: var(--dark-pink);
-    color: white;
-  } 
-
-  .page-wrapper {
-    padding: 100px 0;
-  }
-
-  .page-title-wrapper {
-    width: 50%;
-    height: 160px;
-    padding: 20px 75px;
-  } 
-
-  .page-title {
-    font-size: 5rem;
-    position: relative;
-    bottom: 104px;
-    left: 0;
-    background-color: transparent;
-    animation: backInLeft; 
-    animation-duration: 2s;
-  } 
-
-  .page-subsection-wrapper {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin: 80px auto;
-    padding: 60px 0 40px 80px;
-  }
-
-  .page-summary-title {
-    width: 65%;
-    font-weight: var(--font-weight-light);
-}
-}

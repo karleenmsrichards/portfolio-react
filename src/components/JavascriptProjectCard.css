@@ -1,0 +1,61 @@
+.javascript-project-card-container  {
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    background-color: rgba(241, 243, 246, 0.7); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 1.6rem;
+}
+
+.javascript-project-card-container img {
+    width: 20%;
+    border-radius: 8px;
+}
+
+.javascript-project-card-container h3 {
+    color: rgb(253, 151, 8);
+}
+
+.javascript-project-card-container-links {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+}
+
+.github-link {
+    background-color: grey;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.github-link:hover {
+    background-color: #ffffff;
+    color: grey;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.site-link {
+    background-color: #ffffff;
+    color: grey;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.site-link:hover {
+    background-color: grey;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+}

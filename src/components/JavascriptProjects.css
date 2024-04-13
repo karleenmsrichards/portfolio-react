@@ -1,0 +1,23 @@
+.home-javascript-showcase-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        ". title title ."
+        "project project project project";
+    gap: 20px;
+    padding: 40px 180px 80px 180px;
+    color: rgb(70, 69, 69);
+    margin-top: 150px;
+}
+
+.home-javascript-showcase-container  h2 {
+    margin-bottom: 20px;
+}
+
+.javascript-project-cards {
+    grid-area: project;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.home-hero-container {
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-areas: 
+    "intro-text"
+    "journey-text";
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+  .home-hero-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "intro-text"
+      "journey-text";
+    padding: 0 20px; 
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home-hero-container {
+    grid-template-columns: 38% 22% 40%; 
+    grid-template-areas: 
+      "intro-text . journey-text";
+    background-image: url("../images/portfolio-img.png");
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0; 
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+  }
+}
+
+.home-hero-intro-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 480px) {
+  .home-hero-intro-container {
+    grid-area: intro-text;
+    align-self: self-start;
+    gap: 60px;
+    background-image: url("../images/portfolio-img.png");
+    background-size: contain; 
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home-hero-intro-container {
+    font-size: 18px;
+    grid-area: intro-text;
+    margin: 80px 0 0 20px;
+    background-image: none;
+  }
+}
+
+.home-hero-intro-container {
+  padding: 20px 25px 0px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media only screen and (min-width: 480px) {
+  .home-hero-intro-container {
+    width: 68%;;
+    padding: 30px 10px 0px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home-hero-intro-container {
+    width: 90%;
+    gap: 10px;
+    padding-bottom: 25px;
+  }
+}
+
+.home-hero-intro-container span {
+  color: #26cbda;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Rock Salt';
+}
+
+@media only screen and (min-width: 768px) {
+  .home-hero-intro-container span {
+    font-size: 2rem;
+  }
+}
+
+.home-hero-intro-container a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  background-image: linear-gradient(to right, rgb(244, 52, 23), rgb(251, 143, 71), rgb(246, 229, 36));
+  width: 50%;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px 5px;
+}
+
+.home-hero-intro-container a:hover {
+  background-image: none;
+  background-color: rgb(246, 229, 36);
+  color: black;
+}
+
+
+.home-hero-img {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+  .home-hero-img {
+    display: none;
+  }
+}
+
+.home-hero-journey-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 30px;
+  border-radius: 8px;
+  background-color: rgb(241, 243, 248);
+  background-color: rgba(224, 224, 231, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow with spread radius to create shadow all around */
+}
+
+@media only screen and (min-width: 480px) {
+  .home-hero-journey-text-container {
+    grid-area: journey-text;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home-hero-journey-text-container {
+    grid-area: journey-text;
+    margin-left: 25px;
+    margin-top: 30px;
+  }
+}
+
+.home-hero-journey-text-container h2 {
+  color: rgb(84, 84, 87);
+}
+
+.home-hero-journey-text-container span {
+  font-weight: bold;
+}
+
+.home-hero-contact-container {
+  display: none;
+}
+
+@media only screen and (min-width: 480px) {
+  .home-hero-contact-container {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 0px 30px 30px 25px;
+    margin-left: 80px;
+  }  
+}
+
+@media only screen and (min-width: 768px) {
+  .home-hero-contact-container {
+    border-radius: 8px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 20px;
+  }  
+}
+
+@media only screen and (min-width: 480px) {
+  .home-hero-contact-container span {
+    font-weight: bold;
+  }  
+}
+
+@media only screen and (min-width: 480px) {
+  .home-hero-social-media-icon-container {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+
+
