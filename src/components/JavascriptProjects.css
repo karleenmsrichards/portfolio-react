@@ -1,7 +1,7 @@
 .home-javascript-showcase-container {
     padding: 20px;
     color: var(--dark-grey);
-    background-color: #e7f6f8;
+    background-color: var(--light-blue);
 }
 
 .home-javascript-showcase-container  h2 {
