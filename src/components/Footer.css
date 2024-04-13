@@ -1,5 +1,5 @@
 footer {
-  background-color: #d5eff1;
+  background-color: var(--primary-blue);
   padding: 20px;
   font-size: .875rem;
   display: grid;
@@ -28,17 +28,11 @@ footer {
   grid-area: profiles;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
-.footer-attribution-wrapper {
+.footer-copyright-wrapper {
   grid-area: attribution;
-}
-
-.footer-profiles-icons-wrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
 }
 
 .footer-text-title {

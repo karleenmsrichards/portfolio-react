@@ -12,8 +12,8 @@ export const JavascriptProjectCard = ({ image, title, description, technology })
       <p>{technology}</p>
     </div>
     <div className="javascript-project-card-container-links">
-      <p><a className="github-link" href="">Github Repo</a></p>
-      <p><a className="site-link" href="">Visit Site</a></p>
+      <p><a className="github-link" href="">Code</a></p>
+      <p><a className="site-link" href="">Explore</a></p>
     </div>
 
     </div>

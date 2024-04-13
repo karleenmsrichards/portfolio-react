@@ -1,8 +1,8 @@
 .javascript-project-card-container  {
-    padding: 40px 25px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 40px 20px;
     border-radius: 8px;
     background-color: rgba(241, 243, 246, 0.7); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -15,18 +15,18 @@
 }
 
 .javascript-project-card-container h3 {
-    color: rgb(253, 151, 8);
+    color: var(--primary-orange);
 }
 
 .javascript-project-card-container-links {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     width: 70%;
 }
 
 .github-link {
-    background-color: grey;
-    color: #ffffff;
+    background-color: var(--grey);
+    color: var(--white);
     text-decoration: none;
     border-radius: 8px;
     padding: 10px 20px;
@@ -34,8 +34,8 @@
 }
 
 .github-link:hover {
-    background-color: #ffffff;
-    color: grey;
+    background-color: var(--primary-orange);
+    color: var(--white);
     text-decoration: none;
     border-radius: 8px;
     padding: 10px 20px;
@@ -43,8 +43,8 @@
 }
 
 .site-link {
-    background-color: #ffffff;
-    color: grey;
+    background-color: var(--primary-orange);
+    color: var(--white);
     text-decoration: none;
     border-radius: 8px;
     padding: 10px 20px;
@@ -52,8 +52,8 @@
 }
 
 .site-link:hover {
-    background-color: grey;
-    color: #ffffff;
+    background-color: var(--grey);
+    color: var(--white);
     text-decoration: none;
     border-radius: 8px;
     padding: 10px 20px;
