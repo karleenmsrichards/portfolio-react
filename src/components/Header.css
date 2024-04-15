@@ -1,5 +1,5 @@
 header {
-    background-color: var(--primary-blue);
+    background-color: var(--light-grey);
     padding: 15px;
 }
   
@@ -19,8 +19,8 @@ header {
     header {
       display: grid;
       grid-template-areas: 
-      "logo . portfolio skills stack links";
-      grid-template-columns: 4fr 3fr 1fr 0.7fr 1fr 1fr;
+      "logo . portfolio skills stack contact links";
+      grid-template-columns: 4fr 2fr 0.7fr 0.8fr 1.2fr 1fr 1fr;
       column-gap: 10px;
       justify-content: center;
       align-items: center;
@@ -53,17 +53,27 @@ header {
         display: block;   
     }
 
+    #contact {
+        grid-area: contact;
+    }
+
     #social-media-links {
         grid-area: links;
         display: flex;
         gap: 8px;
     }
 
-    .nav-btn{
+    .nav-btn {
         display: block;
         text-decoration: none;
         font-weight: 600;
-        color: #000000;
+        color: var(--black);
+    }
+
+    .nav-btn:hover {
+        color: var(--primary-orange);
+        text-decoration: underline;
+        transition: color 0.3s ease;
     }
 
 }

@@ -44,7 +44,7 @@ export const JavaScriptProjects = () => {
   ];
   
     return (
-        <div class='home-javascript-showcase-container' id="javascript-projects">
+        <div className='home-javascript-showcase-container' id="javascript-projects">
             <h2>Javascript Showcase...</h2>
             <div className='javascript-project-cards'>
                 {projectsData.map((project, index) => (

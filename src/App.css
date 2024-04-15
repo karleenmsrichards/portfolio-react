@@ -8,7 +8,7 @@
   --primary-orange: #fd9708;
   --highlight-blue: #26cbda;
   --light-blue: #e7f6f8;
-  --light-grey: #dedee3cc;
+  --light-grey: #eeeef3;
   --grey: #808080;
   --dark-grey: #464545;
   --black: #000000;
@@ -33,5 +33,9 @@ body {
 .app {
   display: flex;
   flex-direction: column;
+}
+
+h2 {
+  color: var(--dark-grey);
 }
 

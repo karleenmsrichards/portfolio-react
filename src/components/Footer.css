@@ -1,5 +1,6 @@
 footer {
-  background-color: var(--pale-blue);
+  background-color: var(--light-grey);
+  background-color: rgb(238, 238, 243);
   padding: 20px;
   font-size: .875rem;
   display: grid;

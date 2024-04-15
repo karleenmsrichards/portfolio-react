@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 import githubIcon from "../images/github-icon.png"
 import linkedInIcon from "../images/linkedin-icon.png"
 
-export const Header = () => {
+export const Header = ({setShowPopup}) => {
   const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => setShowMenu((s) => !s);
 
@@ -32,6 +32,10 @@ export const Header = () => {
           <a href="/#tech-stack" className="nav-btn">
             TECH STACK
           </a>
+        </div>
+
+        <div id="contact">
+            <p className="nav-btn" onClick={() => setShowPopup(true)}>CONTACT</p>
         </div>
 
         <div id="social-media-links">

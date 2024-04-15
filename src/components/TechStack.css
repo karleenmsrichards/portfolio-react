@@ -4,8 +4,6 @@
     flex-direction: column;
     gap: 30px;
     padding: 50px 0;
-    /* border-top: 1px solid var(--light-grey);
-    border-bottom: 1px solid var(--light-grey); */
     background-color: var(--light-blue);
     color: var(--dark-grey);
     margin: 100px 0;
