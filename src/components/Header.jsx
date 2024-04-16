@@ -52,7 +52,7 @@ export const Header = ({ setShowPopup }) => {
       <div id="social-media-links">
         <a
           className="nav-btn"
-          href="https://github.com/your_username"
+          href="https://github.com/karleenmsrichards"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -61,7 +61,7 @@ export const Header = ({ setShowPopup }) => {
 
         <a
           className="nav-btn"
-          href="https://linkedin.com/in/your_profile"
+          href="https://www.linkedin.com/in/karleen-ms-richards/"
           target="_blank"
           rel="noopener noreferrer"
         >
