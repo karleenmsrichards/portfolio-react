@@ -18,7 +18,6 @@ footer {
 .footer-subsection {
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
 .footer-email-wrapper {
