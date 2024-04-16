@@ -18,6 +18,10 @@ export const Header = ({setShowPopup}) => {
           </a>
         </div>
 
+        <div id="cv">
+            <p className="nav-btn cv-btn" onClick={() => setShowPopup(true)}>CV</p>
+        </div>
+
         <div id="projects-wrapper">
           <a href="/#javascript-projects" className="nav-btn">PROJECTS</a>
         </div>

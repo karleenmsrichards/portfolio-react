@@ -22,8 +22,8 @@ header {
     header {
       display: grid;
       grid-template-areas: 
-      "logo . portfolio skills stack contact links";
-      grid-template-columns: 4fr 2fr 0.7fr 0.8fr 1.2fr 1fr 1fr;
+      "logo . cv portfolio skills stack contact links";
+      grid-template-columns: 4fr 2fr 0.7fr 0.7fr 0.8fr 1.2fr 1fr 1fr;
       column-gap: 10px;
       justify-content: center;
       align-items: center;
@@ -38,6 +38,13 @@ header {
     .header-logo-name-wrapper {
         grid-area: logo;
         font-size: 1rem;
+    }
+
+
+    #cv {
+        display: block;
+        grid-area: cv;
+        /* margin-right: 50px; */
     }
 
     #projects-wrapper {
@@ -75,6 +82,15 @@ header {
 
     .nav-btn:hover {
         color: var(--primary-orange);
+        text-decoration: underline;
+        transition: color 0.3s ease;
+    }
+
+    .cv-btn {
+        color: var(--primary-orange);
+    }
+
+    .cv-btn:hover {
         text-decoration: underline;
         transition: color 0.3s ease;
     }
