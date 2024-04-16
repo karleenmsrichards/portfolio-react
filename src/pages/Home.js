@@ -15,6 +15,11 @@ export const Home = ({ showPopup, setShowPopup}) => {
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
+
+    if (!email || !subject || !message) {
+      alert("Please fill in all fields");
+      return;
+    }  
  
     try {
       const response = await axios.post("https://portfolio-server-n1m8.onrender.com/send_email", {
