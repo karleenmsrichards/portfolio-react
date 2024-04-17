@@ -26,7 +26,7 @@ export const Header = ({ setShowPopup }) => {
       </div>
 
       <div id="projects-wrapper">
-        <a href="/#javascript-projects" className="nav-btn">
+        <a href="/#projects" className="nav-btn">
           PROJECTS
         </a>
       </div>

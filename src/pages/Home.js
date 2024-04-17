@@ -1,7 +1,7 @@
 import "../App.css";
 import axios from "axios";
 import { HomeHero } from "../components/HomeHero";
-import { JavaScriptProjects } from "../components/JavascriptProjects";
+import { Projects } from "../components/Projects";
 import { SkillCards } from "../components/SkillCards";
 import { TechStack } from "../components/TechStack";
 import { useState } from "react";
@@ -52,7 +52,7 @@ export const Home = ({ showPopup, setShowPopup}) => {
         message={message}
         setMessage={setMessage}
       />
-      <JavaScriptProjects />
+      <Projects />
       <SkillCards />
       <TechStack />
   </div>
