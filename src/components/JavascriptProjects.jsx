@@ -22,7 +22,7 @@ export const JavaScriptProjects = () => {
         image: weatherIcon,
         title: 'Weather App',
         description:'Provides GPS-based weather updates and city-specific forecasts through a RESTful API integration.',
-        technology: 'Custom CSS3, Javascript, React, RESTful API.',
+        technology: 'Custom CSS3, Javascript, React, RESTful API',
         skills: 'Attention to detail, Problem solving, Product Management',
         githubLink: 'https://github.com/karleenmsrichards/weather-app',
         siteLink: 'https://weather-app-karleen.onrender.com'
