@@ -1,0 +1,119 @@
+.project-card-container  {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "img"
+        "text";
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--white); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 1.6rem;
+    color: var(--black);
+}
+
+@media only screen and (min-width: 768px) {
+    .project-card-container  {
+        display: grid;
+        grid-template-columns: 65% 35%;
+        grid-template-areas: 
+        "text img";
+    }
+}
+
+.project-card-img-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center; 
+}
+
+@media only screen and (min-width: 768px) {
+    .project-card-img-container {
+        align-items: center; 
+    }
+}
+
+.project-card-img-container img {
+    width: 60%; 
+}
+
+@media only screen and (min-width: 768px) {
+    .project-card-img-container img {
+        width: 100%; 
+    }
+
+    .project-card-img-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center; 
+    }
+}
+
+.project-card-container h3 {
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
+
+.project-card-description {
+    line-height: 1.5rem;
+}
+
+.project-card-text-container {
+    grid-area: text;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project-list-container {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .project-list-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.project-card-list {
+    color: var(--mid-grey);
+    line-height: 1.2rem;
+    list-style: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .project-card-list {
+        font-size: 0.8rem;
+    }
+}
+
+.project-card-container-links {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.project-card-link {
+    background-color: var(--white);
+    color: var(--black);
+    text-decoration: none;
+    border: 1px solid var(--dark-grey);
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.project-card-link:hover {
+    background-color: var(--dark-grey);
+    color: var(--white);
+    text-decoration: none;
+    border: 1px solid var(--dark-grey);
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+
+

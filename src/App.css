@@ -10,6 +10,7 @@
   --light-blue: #e7f6f8;
   --light-grey: #eeeef3;
   --grey: #808080;
+  --mid-grey: #646465;
   --dark-grey: #464545;
   --black: #000000;
   --white: #ffffff;
@@ -36,6 +37,6 @@ body {
 }
 
 h2 {
-  color: var(--dark-grey);
+  font-weight: bold;
 }
 
