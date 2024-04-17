@@ -14,7 +14,7 @@
 
 @media only screen and (min-width: 480px) {
   .home-hero-container {
-    padding: 0 20px 80px 20px; 
+    padding: 40px 20px 80px 20px; 
   }
 }
 
@@ -56,7 +56,7 @@
   }
 }
 
-.home-hero-intro-container span {
+.home-hero-intro-name {
   color: var(--highlight-blue);
   font-size: 1.8rem;
   font-weight: bold;
@@ -64,14 +64,29 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .home-hero-intro-container span {
+  .home-hero-intro-name {
     font-size: 2rem;
   }
+}
+
+.home-hero-intro-title {
+  font-weight: bold;
 }
 
 .home-hero-img-container {
   display: block;
   width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+  .home-hero-img-container {
+    grid-area: img;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--light-blue);
+    border-radius: 8px;
+  }
 }
 
 .home-hero-img {
@@ -81,18 +96,10 @@
 }
 
 @media only screen and (min-width: 480px) {
-  .home-hero-img-container {
-    grid-area: img;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-}
-
-@media only screen and (min-width: 480px) {
   .home-hero-img {
     width: auto;
     height: 100%;
+    border-radius: 8px;
   }
 }
 
@@ -105,12 +112,18 @@ button {
 }
 
 .cta {
-  width: 30%;
+  width: 40%;
   background-color:  var(--primary-orange);
   color: var(--white);
   margin-top: 10x;
   font-size: 1.1rem;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 480px) {
+  .cta {
+    width: 30%;
+  }
 }
 
 .cta:hover {

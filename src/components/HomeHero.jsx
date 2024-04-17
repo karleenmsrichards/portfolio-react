@@ -13,10 +13,9 @@ export const HomeHero = ({ handleFormSubmit, showPopup, setShowPopup, email, sub
           <img className="home-hero-img" src={portfolioImgMobile} alt="Karleen Richards" />
         </div>
         <div className="home-hero-intro-text-container">
-          <p>Hi I'm <span>Karleen</span>,</p>
-          <h1>Software Development graduate.</h1>
-          <p className="home-hero-intro-text">I fancy tackling challenges through problem solving and using my creativity to craft solutions from the ground up. I am passionate about staying at the forefront of technology trends and enjoy continuously expanding my knowledge with the ever-evolving tech landscape.</p>
-          <button className="cta" onClick={() => setShowPopup(true)}>Let's talk</button>
+          <p>Hi I'm <span className="home-hero-intro-name">Karleen</span>,</p>
+          <p className="home-hero-intro-text"><span className="home-hero-intro-title">Software Engineer</span> that fancies problem solving and crafting solutions from the ground up. I enjoy staying at the forefront of technology trends by continuously expanding my knowledge.</p>
+          <button className="cta" onClick={() => setShowPopup(true)}>LET'S TALK</button>
         </div>
       </div>
       <ContactPopup
