@@ -1,8 +1,9 @@
 import { useState } from "react";
 import "../components/Header.css";
-import NavBar from "../components/NavBar";
+import { NavBar } from "../components/NavBar";
 import githubIcon from "../images/github-icon.png";
 import linkedInIcon from "../images/linkedin-icon.png";
+import menuIcon from "../images/menu-icon.png";
 
 
 export const Header = ({ setShowPopup }) => {
@@ -17,6 +18,11 @@ export const Header = ({ setShowPopup }) => {
         <a href="/" className="header-logo-name-text">
           Karleen Richards
         </a>
+      </div>
+      <div className="header-hamburger-menu-container">
+        <button onClick={() => setShowMenu(true)}>
+          <img className="header-hamburger-menu" src={menuIcon} />
+        </button>
       </div>
 
       <div id="cv">
@@ -73,7 +79,7 @@ export const Header = ({ setShowPopup }) => {
         </a>
       </div>
 
-      {showMenu && <NavBar showMenu={showMenu} handleClose={handleClose} />}
+      {showMenu && <NavBar showMenu={showMenu} handleClose={handleClose} setShowPopup={setShowPopup} setShowMenu={setShowMenu}/>}
     </header>
   );
 };

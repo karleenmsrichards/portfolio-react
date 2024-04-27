@@ -1,4 +1,7 @@
 header {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
     background-color: var(--light-grey);
     padding: 15px;
     position: sticky;
@@ -12,6 +15,10 @@ header {
     font-weight: bold;
     margin-left: 5px;
     color: var(--black);
+}
+
+.header-hamburger-menu-container {
+    justify-self: self-end;
 }
 
 .nav-btn {
@@ -40,11 +47,13 @@ header {
         font-size: 1rem;
     }
 
+    .header-hamburger-menu-container {
+        display: none;
+    }
 
     #cv {
         display: block;
         grid-area: cv;
-        /* margin-right: 50px; */
     }
 
     #projects-wrapper {
