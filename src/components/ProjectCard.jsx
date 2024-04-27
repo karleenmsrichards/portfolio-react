@@ -16,6 +16,8 @@ export const ProjectCard = ({ image, title, description, skills, technology, git
     recipeIcon: recipeIcon
   };
 
+  const isVideo = siteLink.endsWith(".mp4");
+
   return (
     <div className="project-card-container">
       <div className="project-card-text-container">
