@@ -11,13 +11,6 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 480px) {
-.popup-overlay {
-  bottom: 0;
-  top: 40px;
-}
-}
-
 .popup {
   background-color: var(--white);
   color: var(--black);
@@ -26,7 +19,7 @@
   z-index: 1000; 
   width: 90%; 
   max-width: 600px; 
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
   position: relative;
 }
 
@@ -47,6 +40,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 100%;
 }
 
 .form-input {
@@ -92,4 +86,10 @@
 
 .popup-submit-btn:hover {
   font-weight: bold;
+}
+
+@media only screen and (min-width: 480px) {
+  .popup {
+    width: 80%;
+  }
 }
