@@ -31,6 +31,7 @@ header {
 
 .menu-btn {
     background-color: var(--white);
+    color: var(--black);
     font-weight: 400;
     font-size: 18px;
     padding: 0;
