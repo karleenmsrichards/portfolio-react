@@ -42,6 +42,7 @@
   border: none;
   background-color: var(--white);
   text-decoration: underline;
+  color: var(--black);
 }
 
 .close-btn:hover {
