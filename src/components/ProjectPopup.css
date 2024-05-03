@@ -17,6 +17,12 @@
     width: 90%;
     overflow-y: auto;
     position: relative; 
+    margin-top: 40px;
+    max-height: 80%;
+}
+
+.project-popup-inner {
+    margin-top: 20px;
 }
 
 .project-popup-close-btn {
@@ -29,7 +35,6 @@
     border: none;
     text-decoration: none;
     border-bottom: 1px solid var(--black);
-    cursor: pointer;
 }
 
 .project-popup-title {
@@ -70,5 +75,6 @@
 
     .project-popup {
         width: 40%;
+        margin-top: 40px;
     }
 }

@@ -48,7 +48,6 @@
 .close-btn:hover {
   font-size: 2em;
   font-weight: bold;
-  cursor: pointer;
 }
 
 .animate__animated.animate__slideInRight {
