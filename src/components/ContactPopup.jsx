@@ -6,6 +6,7 @@ export const ContactPopup = ({ showPopup, handleFormSubmit, setShowPopup, email,
     showPopup && (
       <div id="popup" className="popup-overlay">
         <div className="popup">
+          <button className="popup-close-btn" onClick={() => setShowPopup(false)}>Close</button>
           <div className="popup-inner">
             <h2>Send me an email</h2>
             <form onSubmit={handleFormSubmit}>
@@ -14,11 +15,9 @@ export const ContactPopup = ({ showPopup, handleFormSubmit, setShowPopup, email,
               <textarea className="form-input form-textarea" placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)} required />
               <button className="popup-submit-btn" type="submit">Submit</button>
             </form>
-            <button className="popup-close-btn" onClick={() => setShowPopup(false)}>Close</button>
           </div>
         </div>
       </div>
     )
   );
 };
-

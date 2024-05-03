@@ -52,9 +52,9 @@ export const Home = ({ showPopup, setShowPopup}) => {
         message={message}
         setMessage={setMessage}
       />
+      <TechStack />
       <Projects />
       <SkillCards />
-      <TechStack />
   </div>
   );
 };

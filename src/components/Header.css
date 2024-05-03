@@ -1,24 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 header {
+    background-color: var(--white);
+    width: 100%;
     display: grid;
-    grid-template-columns: 60% 40%;
-    align-items: center;
-    background-color: var(--light-grey);
-    padding: 15px;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
     position: sticky;
     top: 0;
     z-index: 1000;
-}
-  
-.header-logo-name-text {
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-left: 5px;
-    color: var(--black);
+    padding: 20px;
 }
 
-.header-hamburger-menu-container {
+.header-logo-name-text {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--black);
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 2rem;
+    background-color: var(--white);
+}
+
+.header-menu-container {
     justify-self: self-end;
+}
+
+.menu-btn {
+    background-color: var(--white);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0;
+    border: none
 }
 
 .nav-btn {
@@ -27,19 +43,20 @@ header {
 
 @media only screen and (min-width: 480px) {
     header {
-      display: grid;
-      grid-template-areas: 
-      "logo . cv portfolio skills stack contact links";
-      grid-template-columns: 4fr 2fr 0.7fr 0.7fr 0.8fr 1.2fr 1fr 1fr;
-      column-gap: 10px;
-      justify-content: center;
-      align-items: center;
-      padding: 30px 0 30px 30px;
+        display: grid;
+        grid-template-areas: 
+        "logo . cv portfolio skills stack contact . links";
+        grid-template-columns: 2fr 1fr .5fr .8fr .6fr 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
     }
   
     .header-logo-name-text {
       display: block;
-      font-size: 1.2rem;
+      font-weight: 600;
+      font-size: 1.5rem;
     }
 
     .header-logo-name-wrapper {
@@ -47,7 +64,7 @@ header {
         font-size: 1rem;
     }
 
-    .header-hamburger-menu-container {
+    .header-menu-container {
         display: none;
     }
 
@@ -59,7 +76,6 @@ header {
     #projects-wrapper {
         display: block;
         grid-area: portfolio;
-        margin-right: 50px;
     }
       
     #skills-wrapper {
@@ -69,7 +85,7 @@ header {
 
     #tech-stack-wrapper {
         grid-area: stack;
-        display: block;   
+        display: block;  
     }
 
     #contact {
@@ -79,29 +95,32 @@ header {
     #social-media-links {
         grid-area: links;
         display: flex;
-        gap: 8px;
+        justify-content: center;
+        gap: 15px;
+        margin-top: -10px;
+    }
+
+    .social-media-icon {
+        display: block;
+        transition: transform 0.3s ease-in-out, border-color 0.3s ease-in; 
+    }
+
+    .social-media-icon:hover {
+        transform: scale(1.2);
     }
 
     .nav-btn {
         display: block;
         text-decoration: none;
-        font-weight: 600;
         color: var(--black);
+        font-weight: 500;
+        font-size: 18px;
+        transition: transform 0.3s ease-in-out, border-color 0.3s ease-in; 
     }
 
     .nav-btn:hover {
-        color: var(--primary-orange);
+        font-weight: bold;
         text-decoration: underline;
-        transition: color 0.3s ease;
+        transform: scale(1.1);
     }
-
-    .cv-btn {
-        color: var(--primary-orange);
-    }
-
-    .cv-btn:hover {
-        text-decoration: underline;
-        transition: color 0.3s ease;
-    }
-
 }

@@ -1,24 +1,25 @@
 import "../pages/Home.css";
 import "../App.css";
 import "../components/HomeHero.css";
-import portfolioImgMobile from "../images/portfolio-img-mobile.png";
+import portfolioImg from "../images/portfolio-img.webP";
 import { ContactPopup } from "./ContactPopup";
 
 export const HomeHero = ({ handleFormSubmit, showPopup, setShowPopup, email, subject, message, setEmail, setSubject, setMessage }) => {
   
   return (
     <div className="home-hero-container">
-      <div className="home-hero-intro-container">
-        <div className="home-hero-img-container">
-          <img className="home-hero-img" src={portfolioImgMobile} alt="Karleen Richards" />
-        </div>
-        <div className="home-hero-intro-text-container">
-          <p>Hi I'm <span className="home-hero-intro-name">Karleen</span>,</p>
-          <p className="home-hero-intro-text"><span className="home-hero-intro-title">Software Engineer</span> that fancies problem solving and crafting solutions from the ground up. I enjoy staying at the forefront of technology trends by continuously expanding my knowledge.</p>
-          <button className="cta" onClick={() => setShowPopup(true)}>LET'S TALK</button>
-        </div>
+      <h1>
+        <span className="h1-span animate__animated animate__bounceInRight">Building</span> solutions from the ground up
+      </h1>
+      <div className="home-hero-text-wrapper">
+        <p>As a software engineer, I am passionate about problem-solving and enjoy crafting solutions from beginning to end.</p>
+        <p>I thrive on staying at the forefront of technology trends, continuously expanding my knowledge.</p>
       </div>
-      <ContactPopup
+      <button className="cta" onClick={() => setShowPopup(true)}>Let's Talk →</button>
+        <div className="home-hero-img-container">
+          <img className="home-hero-img" src={portfolioImg} alt="Karleen Richards" />
+        </div>
+        <ContactPopup
                 showPopup={showPopup}
                 handleFormSubmit={handleFormSubmit}
                 setShowPopup={setShowPopup}

@@ -3,12 +3,9 @@ import "../components/Header.css";
 import { NavBar } from "../components/NavBar";
 import githubIcon from "../images/github-icon.png";
 import linkedInIcon from "../images/linkedin-icon.png";
-import menuIcon from "../images/menu-icon.png";
-
 
 export const Header = ({ setShowPopup }) => {
   const [showMenu, setShowMenu] = useState(false);
-  const toggleMenu = () => setShowMenu((s) => !s);
 
   const handleClose = () => setShowMenu(false);
 
@@ -16,15 +13,14 @@ export const Header = ({ setShowPopup }) => {
     <header>
       <div className="header-logo-name-wrapper">
         <a href="/" className="header-logo-name-text">
-          Karleen Richards
+          <span>Karleen</span> <span>Richards</span>
         </a>
       </div>
-      <div className="header-hamburger-menu-container">
-        <button onClick={() => setShowMenu(true)}>
-          <img className="header-hamburger-menu" src={menuIcon} />
+      <div className="header-menu-container">
+        <button className="menu-btn" onClick={() => setShowMenu(true)}>
+          Menu
         </button>
       </div>
-
       <div id="cv">
         <a className="nav-btn cv-btn" href="https://drive.google.com/file/d/1n7f208HRcLGH9Kh2hBOh_2j9iH-n1_nm/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           CV
@@ -33,39 +29,30 @@ export const Header = ({ setShowPopup }) => {
 
       <div id="projects-wrapper">
         <a href="/#projects" className="nav-btn">
-          PROJECTS
+          Projects
         </a>
       </div>
 
       <div id="skills-wrapper">
         <a href="/#skills" className="nav-btn">
-          SKILLS
+          Skills
         </a>
       </div>
 
       <div id="tech-stack-wrapper">
         <a href="/#tech-stack" className="nav-btn">
-          TECH STACK
+          Tech Stack
         </a>
       </div>
 
       <div id="contact">
         <p className="nav-btn" onClick={() => setShowPopup(true)}>
-          CONTACT
+          Contact
         </p>
       </div>
 
       <div id="social-media-links">
-        <a
-          className="nav-btn"
-          href="https://github.com/karleenmsrichards"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img className="social-media-icon" src={githubIcon} alt="GitHub" />
-        </a>
-
-        <a
+      <a
           className="nav-btn"
           href="https://www.linkedin.com/in/karleen-ms-richards/"
           target="_blank"
@@ -77,9 +64,17 @@ export const Header = ({ setShowPopup }) => {
             alt="LinkedIn"
           />
         </a>
+        <a
+          className="nav-btn"
+          href="https://github.com/karleenmsrichards"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="social-media-icon" src={githubIcon} alt="GitHub" />
+        </a>
       </div>
 
       {showMenu && <NavBar showMenu={showMenu} handleClose={handleClose} setShowPopup={setShowPopup} setShowMenu={setShowMenu}/>}
-    </header>
+      </header>
   );
 };

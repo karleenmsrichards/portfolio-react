@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import githubIcon from "../images/github-icon.png";
 import linkedInIcon from "../images/linkedin-icon.png";
 import "animate.css";
@@ -22,7 +20,7 @@ export const NavBar = ({ showMenu, handleClose, setShowPopup, setShowMenu }) => 
     >
       <section className="btn">
         <button onClick={handleClose} className="close-btn">
-          <FontAwesomeIcon icon={faXmark} />
+         Close
         </button>
       </section>
       <section className="menu-items">
@@ -74,6 +72,14 @@ export const NavBar = ({ showMenu, handleClose, setShowPopup, setShowMenu }) => 
           </p>
         </div>
         <div className="social-media-links">
+        <a
+            href="https://www.linkedin.com/in/karleen-ms-richards/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="list-item"
+          >
+            <img src={linkedInIcon} alt="LinkedIn" onClick={handleClick} />
+          </a>
           <a
             href="https://github.com/karleenmsrichards"
             target="_blank"
@@ -81,14 +87,6 @@ export const NavBar = ({ showMenu, handleClose, setShowPopup, setShowMenu }) => 
             className="list-item"
           >
             <img src={githubIcon} alt="GitHub" onClick={handleClick} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/karleen-ms-richards/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="list-item"
-          >
-            <img src={linkedInIcon} alt="LinkedIn" onClick={handleClick} />
           </a>
         </div>
       </section>
