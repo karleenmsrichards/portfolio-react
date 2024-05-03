@@ -35,13 +35,11 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 30px;
-  border: 2px dotted red;
 }
 
 .popup-inner h3 {
   line-height: 2rem;
   padding-top: 20px;
-  border: 2px dotted red;
   font-size: 26px;
 }
 
@@ -54,7 +52,9 @@
 .form-input {
   border: none;
   border-bottom: 1px solid var(--black);
+  border-radius: 0;
   padding: 10px;
+
 }
 
 .form-textarea {
