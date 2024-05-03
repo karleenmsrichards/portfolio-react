@@ -14,7 +14,7 @@
     margin-bottom: 10px;
     position: relative;
     padding: 10px;
-    background: linear-gradient(to right, #f9e4c8,pink,#f4dbf8);
+    background: linear-gradient(to right, var(--tertiary-color), var(--primary-color), var(--secondary-color));
 }
 
 
