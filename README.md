@@ -19,7 +19,7 @@ This is my portfolio website built using React [https://react.dev/]
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/karleenmsrichards/portfolio-react
+1. Clone the repository: git clone https://github.com/karleenmsrichards/portfolio-react.git
 
 2. Navigate to the project directory: cd portfolio-react
 
