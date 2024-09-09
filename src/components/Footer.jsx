@@ -33,7 +33,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright-wrapper">
-        <p>© 2023 by Karleen M S Richards</p>
+        <p>© 2024 by Karleen M S Richards</p>
       </div>
     </footer>
   );

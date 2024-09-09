@@ -22,7 +22,7 @@ export const Header = ({ setShowPopup }) => {
         </button>
       </div>
       <div id="cv">
-        <a className="nav-btn cv-btn" href="https://drive.google.com/file/d/1n7f208HRcLGH9Kh2hBOh_2j9iH-n1_nm/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a className="nav-btn cv-btn" href="https://drive.google.com/file/d/1G9zXUw0_8bQEoiUebnhip_GXwQDRFVv9/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           CV
         </a>
       </div>

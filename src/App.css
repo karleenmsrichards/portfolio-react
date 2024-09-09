@@ -25,9 +25,10 @@
 body {
   line-height: 1.5rem;
   font-family: 'Poppins';
-  width: 100%;
+  max-width: 1400px;
   height: 100%;
   overflow-x: hidden;
+  margin: 0 auto;
 }
 
 .app {
