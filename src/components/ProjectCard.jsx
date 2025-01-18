@@ -4,7 +4,7 @@ import { ProjectPopup } from "./ProjectPopup";
 import bookMeIcon from "../images/appointment-icon.webP";
 import weatherIcon from "../images/weather-icon.webP";
 import leetubeIcon from "../images/video-icon.webP";
-import webTvIcon from "../images/tv-icon.webP";
+import moodBoostIcon from "../images/moodBoost-icon.png";
 
 export const ProjectCard = ({ image, title, description, skills, technology, githubLink, siteLink }) => {
   const [showPopup, setShowPopup] = useState(false);
@@ -14,10 +14,10 @@ export const ProjectCard = ({ image, title, description, skills, technology, git
   };
 
   const imageMap = {
+    moodBoostIcon: moodBoostIcon,
     bookMeIcon: bookMeIcon,
     weatherIcon: weatherIcon,
-    leetubeIcon: leetubeIcon,
-    webTvIcon: webTvIcon,
+    leetubeIcon: leetubeIcon
   };
 
   return (

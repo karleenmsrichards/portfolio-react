@@ -1,5 +1,14 @@
 [
     {
+        "image": "moodBoostIcon",
+        "title": "moodBoost",
+        "description": "Built with JavaScript and React. Integrates Google's Gemini AI to fetch inspirational quotes to boost the mood of job seekers.",
+        "technology": "JavaScript, React, RESTful API, Custom CSS3, ",
+        "skills": "Problem solving, Debugging, Self Learner",
+        "githubLink": "https://github.com/karleenmsrichards/karleenmsrichards-quotes-site.git",
+        "siteLink": "https://karleenmsrichards-quotes-site-1.onrender.com"
+    },
+    {
         "image": "bookMeIcon",
         "title": "BookMe",
         "description": "Connecting professional to clients worldwide with Google Calendar integration.",
@@ -25,14 +34,5 @@
         "skills": "Self-motivation, Adaptability, Time Management",
         "githubLink": "https://github.com/karleenmsrichards/Full-Stack-Portfolio-Assessment",
         "siteLink": "https://video-client-side-espj.onrender.com/"
-    },
-    {
-        "image": "webTvIcon",
-        "title": "WebTv",
-        "description": "Built with Vanilla JavaScript, showcasing creative design and utilizing TvMaze's API for TV show and movie display.",
-        "technology": "HTML5, Custom CSS, JavaScript, RESTful API.",
-        "skills": "Problem solving, Debugging, Creativity",
-        "githubLink": "https://github.com/karleenmsrichards/tv-show-dom-Portfolio",
-        "siteLink": "https://cyf-karleenmsrichards-tv.netlify.app/"
     }
 ]
