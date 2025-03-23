@@ -29,7 +29,7 @@ export const NavBar = ({ showMenu, handleClose, setShowPopup, setShowMenu }) => 
         </a>
         <a
           className="list-item"
-          href="https://drive.google.com/file/d/1G9zXUw0_8bQEoiUebnhip_GXwQDRFVv9/view?usp=sharing"
+          href="https://drive.google.com/file/d/1vo8lqP9L8Qn66OgEeT4KkjuXk2Oe5ar3/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           onClick={handleClick}
